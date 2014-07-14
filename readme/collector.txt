@@ -1,0 +1,33 @@
+collector.py
+2014.7.14
+
+zhe zhang
+
+global variable
+
+	dictionary initialized
+	allData data(filename) passed
+
+1. print_dict
+
+2. data
+	init<--filename
+	get-student<--student-name
+	update<--function/modifier
+
+3.sub_dict
+
+4.txt_parser
+	<--filename
+	|
+	|
+        \/inherit
+
+5.basic_parser
+	<--filename
+
+6.phoneix  clestory file and creat a new one
+
+7.vocab_parser
+	<--filename
+	parser

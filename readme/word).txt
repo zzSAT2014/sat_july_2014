@@ -1,0 +1,23 @@
+word_bank.py
+2014.07.14
+
+zhe zhang
+
+Input from   word_list txt
+	@List_1<--list number
+		A[i]  B  C
+		D     E  F
+
+Class dictionary
+
+	init:None
+
+	get-w:  Input: Index
+
+	get-i:  Input: word
+
+	get-l:  Input list num
+              
+                a list of words
+
+		['paradox','diminutive','fleeting'-]

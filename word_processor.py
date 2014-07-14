@@ -45,6 +45,7 @@ def weight_word(dic ,untested = 10):
 				weight +=  func(*(dic[ele]))
 		return weight
 
+
 trans = lambda word: dictionary.get_i(word)
 get_coor = lambda tu: tu[1]
 
@@ -164,6 +165,6 @@ def test_student():
 	gpNamel = ['zhe','chongzhang','zhouhan']
 	lis_nums =['l1','l2','l3']
 	print generate_for_lis_groups(gpNamel,lis_nums)
-test_student()
+#test_student()
 
 

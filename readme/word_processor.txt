@@ -1,0 +1,35 @@
+word_processor.py
+2014年7月14
+zhe zhang
+
+1. class student
+	self.info = data.get_student(name)
+	pruning
+
+2. class student_vocab(student)
+	self.info = self.info['vocab']
+
+4. class student_vocab_list
+   (1)	self.list
+	self.words = all words stored in the list
+
+   (2)   generate_list
+	additional input:number of words
+	return (name,list_number,corrdirates)
+
+3. weighted_word
+	evaluate the weight of a word
+
+5. vocabulary-test_data
+
+   (1) init<--data(name,lisnum,vocab_test)
+   
+   (2) output
+       -->generate and template txt file
+
+6. generate_list_specific
+	<--group names
+           groups
+	   lis num
+	-->generate multiple txt files
+ 
