@@ -48,33 +48,33 @@ def weight_word(dic ,untested = 10):
 trans = lambda word: dictionary.get_i(word)
 get_coor = lambda tu: tu[1]
 
-
+#add datetime module later for evaluation
 class student_vocab_list(student_vocab):
 	
 
 	def __init__(self,name,lis_num):
 		'''return student_specific, list_specific information and probabily process it'''
 		student_vocab.__init__(self,name)
-		self.rel = dictionary.get_l(lis_num)
-		temp = self.info['list']
-		if lis_num not in temp: 
-			self.basic = {}
+		self.wordsInDict = dictionary.get_l(lis_num) #all words inside a list
+		testedlists = self.info['list'] #to see which one has been tested
+		if lis_num not in testedlists: 
+			self.dateC = {}   #---> [(date,correctness)]
 		else: self.basic = self.info['list'][lis_num]
 		self.lis_num = lis_num
-		words = self.info['word']
+		all_tested_words = self.info['word'] #all words that have their data recorded
 		self.list = []
-		self.words = {}
-		for word in self.rel:
-			if word in words:
-				self.words[word] = words[word]
-				self.date = words[word]['mostRecent']
-		for word in self.rel:
-			if word not in words: self.words[word] = None
+		self.allwords = {}
+		for word in self.wordsInDict:
+			if word in all_tested_words:
+				self.allwords[word] = all_tested_words[word]
+				self.date = all_tested_words[word]['mostRecent']
+		for word in self.wordsInDict:
+			if word not in all_tested_words: self.allwords[word] = None
 		#self.words[word] = None           
 				#add the last revised time of when needed
 		#get list
-		for word in self.words.keys():
-			self.list.append((weight_word(self.words[word]),word))
+		for word in self.wordsInDict:
+			self.list.append((weight_word(self.allwords[word]),word))
 
 
 	def generate_list(self , num = 10):   
@@ -136,13 +136,15 @@ class vocabulary_tests_data (object):
 			a.write(vocabulary_tests_data.process_line(self,atom)+'\n')
 		a.close()
 
+#input information
 name_gs =['sb1','sb2']
 groups = [['zhe','chongzhang'],['zhouhan','zhe']]
 lisnum_gs = [['l1', 'l2' , 'l3'],['l4', 'l5']]
-date = '2014.7.11'
+date = '2014.7.14'
 
 def generate_list_specific(name_gs,groups,lisnum_gs,date):
 	'''generate all txt files need for testing, with name in name_gs+date  as filename'''
+	print date
 	for identifier, groups, lisnums in zip(name_gs,groups,lisnum_gs):
 		data = generate_for_lis_groups(gpNamel,lis_nums)
 		print data
@@ -162,6 +164,6 @@ def test_student():
 	gpNamel = ['zhe','chongzhang','zhouhan']
 	lis_nums =['l1','l2','l3']
 	print generate_for_lis_groups(gpNamel,lis_nums)
-#test_student()
+test_student()
 
 

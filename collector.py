@@ -224,7 +224,7 @@ def test_v_parser():
 	# print my_info
 	# sub_dict(my_info,[name,'vocab','date',date],func = appender((listNum,correctRate)),value=[])
 	# print my_info
-test_v_parser()
+#test_v_parser()
 #def update_file(target,*inputs):
 
 filename = 'test'
