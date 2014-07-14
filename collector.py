@@ -131,6 +131,7 @@ def phoneix(filename):
 	'''destory a file and create an empty file with the same name
 
 	return --> the new file object'''
+	open(filename,'a+')
 	os.remove(filename)
 	return open(filename,'a+')
 
@@ -208,7 +209,13 @@ def test_v_parser():
 	#parser = vocab_parser(filename).parser()
 	# parser(my_info)
 	# print_dict(my_info)
+
 	a = data('test')
+	b = basic_parser('input.txt')
+	a.update(b.parser(),output ='testing')
+	print a
+	c = vocab_parser(filename)
+	a.update(c.parser(),output = 'testing')
 	#a.update(parser)
 	print a
 	print_dict(a.get_student('zhe'))
@@ -219,7 +226,6 @@ def test_v_parser():
 	# print my_info
 test_v_parser()
 #def update_file(target,*inputs):
-
 
 filename = 'test'
 allData = data(filename)

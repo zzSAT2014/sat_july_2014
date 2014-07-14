@@ -17,7 +17,7 @@ class student(object):
 class student_vocab(student):
 	def __init__(self,name):
 		student.__init__(self,name)
-		if 'wocab' not in self.info:
+		if 'vocab' not in self.info:
 			sub_dict(self.info,['vocab','list'],value=())
 			sub_dict(self.info,['vocab','word'],value={})
 		self.info = self.info['vocab']

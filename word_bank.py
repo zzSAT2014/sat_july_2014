@@ -83,6 +83,7 @@ class dictionary(object):
 
 
 a = dictionary()
+print a.get_l('l2')
 #print len(a.get_l('l4'))
 #print a.get_w(('l5','D2'))
 # # print a.get_i('na\xc3\xafve')
