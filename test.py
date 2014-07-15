@@ -1,6 +1,14 @@
 #from collector import *
 from copy import copy
 from les3 import *
+# import sys
+# sys.path.append('/Users/Zhe/Desktop/sat_july_2014/word_bank')
+# import word_bank
+
+import os
+sub_dir = os.path.dirname(__file__)
+
+print sub_dir
 # b={'chongzhang': {'age': 18, 'word': {'wrong': {'fuck': (1.1, 1.2)}}, 'sex': 'gay'}}
 # b['zhouhan']={'sex':'gay'}
 # a=open('test','a+')

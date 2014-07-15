@@ -1,9 +1,18 @@
 from collector import *
 from weighted_random import weighted_choice
+from datetime import date
 #sub_dict(dic,lis,func=lambda x:x,value=None,copy=None)
 #i have these important information
 dictionary = dictionary
 data = allData
+
+def open(filename,mode='a+'):
+	'''convert to utf-16 mode, for universial compatibility
+	'''
+	#print 'hi'
+	return codecs.open(filename,mode,'UTF-8')
+
+
 
 class student(object):
 	'''get all inforamtion about an individual student'''
@@ -24,9 +33,50 @@ class student_vocab(student):
 
 #custom designed functions
 ###############################################################################################to be changed later
-eval_most_recent = lambda flag,date: 1
-eval_wrong = lambda num, dates: 1
-eval_correct = lambda num, dates: 1
+# eval_most_recent = lambda flag,date: 1
+# eval_wrong = lambda num, dates: 1
+# eval_correct = lambda num, dates: 1
+
+
+
+def time_duration(most_recent_date):
+	'''Calculate the time between the date of last test and current date'''
+	today = date.today()
+	past= most_recent_date.split('.')
+	past = map(int, past)
+	past = date(*past)
+	if date ==None:
+		time_duration = 0
+	else:
+		time_duration = today - past
+	return time_duration.days()
+
+
+
+def eval_most_recent(flag, time, weighting_factor=100):
+	'''evaluate weighting_factor according to most recent test'''
+	time = time_duration(time)
+	if flag == False:
+		weighting_factor = weighting_factor+ 2*time_duration
+	else:
+		weighting_factor = weighting_factor - 100/float(time_duration)
+	return weighting_factor
+
+
+def eval_wrong(num,dates,weighting_factor=0):
+	'''evaluate weighting_factor according to total number of wrong answers to a word'''
+	if num ==0:
+		weighting_factor -= 5
+	else:
+		weighting_factor += num*5
+	return weighting_factor
+
+
+def eval_correct(num,dates,weighting_factor=0):
+	'''evaluate weighting_factor according to total number of right answers to a word'''
+	weighting_factor -= num*5
+	return weighting_factor
+
 
 def weight_word(dic ,untested = 10):
 	'''evaluate all the contents of the dic and return a weight value
@@ -46,12 +96,11 @@ def weight_word(dic ,untested = 10):
 		return weight
 
 
-trans = lambda word: dictionary.get_i(word)
+
 get_coor = lambda tu: tu[1]
 
 #add datetime module later for evaluation
 class student_vocab_list(student_vocab):
-	
 
 	def __init__(self,name,lis_num):
 		'''return student_specific, list_specific information and probabily process it'''
@@ -77,12 +126,13 @@ class student_vocab_list(student_vocab):
 		for word in self.wordsInDict:
 			self.list.append((weight_word(self.allwords[word]),word))
 
+	trans = lambda self,word: dictionary.get_i(word,identifier = self.lis_num[0])
 
 	def generate_list(self , num = 10):   
 		#smaller num used to for testing, will change to larger value later
 		#print self.list
 
-		output = map(trans,weighted_choice(self.list,num = num))
+		output = map(self.trans,weighted_choice(self.list,num = num))
 		coordinates = map(get_coor,output)
 		return (self.name ,self.lis_num, coordinates)
 
@@ -92,8 +142,8 @@ class student_vocab_list(student_vocab):
 
 	# def generate(self,func):
 	# 	'''a list '''
-gpNamel = ['zhe','chongzhang','zhouhan']
-lis_nums =['l1','l2','l3']
+# gpNamel = ['zhe','chongzhang','zhouhan']
+# lis_nums =['l1','l2','l3']
 def generate_for_lis_groups(gpNamel,lis_nums):
 	'''	input: gp --> a list containing all the names inside a group
 				lis_num --> a list containing all numbers to be test_student
@@ -136,18 +186,20 @@ class vocabulary_tests_data (object):
 			print atom#iterable
 			a.write(vocabulary_tests_data.process_line(self,atom)+'\n')
 		a.close()
-
+#************************************************************
+#use this to generate information
 #input information
 name_gs =['sb1','sb2']
-groups = [['zhe','chongzhang'],['zhouhan','zhe']]
-lisnum_gs = [['l1', 'l2' , 'l3'],['l4', 'l5']]
-date = '2014.7.14'
+groups = [['QianyiShi','HuijunLi'],['QianyiShi','HuijunLi']]
+lisnum_gs = [['Dl1', 'Bl2' , 'Dl3'],['Bl4', 'Bl5']]
+em = date.today()
+date = '%s.%s.%s'%(em.year,em.month,em.day)
 
 def generate_list_specific(name_gs,groups,lisnum_gs,date):
 	'''generate all txt files need for testing, with name in name_gs+date  as filename'''
 	print date
-	for identifier, groups, lisnums in zip(name_gs,groups,lisnum_gs):
-		data = generate_for_lis_groups(gpNamel,lis_nums)
+	for identifier, group, lisnums in zip(name_gs,groups,lisnum_gs):
+		data = generate_for_lis_groups(group,lisnums)
 		print data
 		a = vocabulary_tests_data(data,date)
 		a.output(identifier+date)
@@ -162,8 +214,8 @@ def test_student():
 	a = student_vocab_list(name,'l1')
 	#print print_dict(a.words)
 	#print a.generate_list()
-	gpNamel = ['zhe','chongzhang','zhouhan']
-	lis_nums =['l1','l2','l3']
+	gpNamel = ['QianyiShi','HuijunLi']
+	lis_nums =['Bl1','Bl2','Bl3']
 	print generate_for_lis_groups(gpNamel,lis_nums)
 #test_student()
 

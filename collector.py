@@ -3,7 +3,15 @@ from les3 import *
 from copy import copy
 import os
 import string
+
 from word_bank import dictionary
+import codecs
+
+def open(filename,mode='a+'):
+	'''convert to utf-16 mode, for universial compatibility
+	'''
+	#print 'hi'
+	return codecs.open(filename,mode,'UTF-8')
 
 
 dictionary = dictionary()
@@ -25,11 +33,23 @@ def print_dict(dic):
 class data(object):
 	def __init__(self,filename,mode = 'r+'):
 		'''opens up the file in r+ mode, unless otherwise specified, i.e use a+ to create file'''
-		self.file = open(filename,mode)
+		self.file = open(filename,mode = mode)
 		self.name = filename
-		string=self.file.read().strip()
-		self.info =  eval(string)
+		# string=self.file.read().strip()
+		
+		string = ''
+		for line in self.file:
+			string = eval(line)
+		#print 'hi'
+		#print string
+		self.info =  string
 		self.file.close()
+
+	def convert(self,data):
+		'''basic parsing of utf_8 format for output'''
+		string = str(data)
+		out = re.sub("u'","'",string)
+		return out.encode('utf_8')
 
 	def update(self, func, output = 'newmaster'):
 		'''modify the input and save it'''
@@ -39,7 +59,8 @@ class data(object):
 		os.remove(output)
 		self.file = open(output,'a+')
 		#print self.info
-		self.file.write(repr(self.info))
+		#print self.info
+		self.file.write(self.convert(self.info))
 		self.file.close()
 
 	def get_student(self,name):
@@ -48,7 +69,23 @@ class data(object):
 		return self.info[name]
 	def __str__(self):
 		print_dict(self.info)
+		
 		return 'end'
+
+def test_data():
+	#a= data('empty')
+	a =''
+	f=open('empty','r+')
+	print #f.read()
+	for line in f:
+		a=eval(line)
+
+	print a
+	a['b']='c'
+	print a
+
+
+#test_data()
 
 def csub_dict(dic,lis,value):
 	'''create a subdictionary if there there is not one'''
@@ -113,6 +150,7 @@ class txt_parser(object):
 
 
 def test_txt_parser():
+
 	input= 'input.txt'
 	a=txt_parser(input)
 	print a.info
@@ -127,6 +165,7 @@ class basic_parser(txt_parser):
 				sub_dict(dic,directory,func = lambda x: value[0])
 		return inner
  
+
 def phoneix(filename):
 	'''destory a file and create an empty file with the same name
 
@@ -201,20 +240,27 @@ class vocab_parser(txt_parser):
 		return inner
 
 
+#************************************************************
+#verb parser
+subdir = '/Users/Zhe/Desktop/sat_july_2014/data_2014.07.14'
+input_file= 'test'
+filename = os.path.join(subdir,input_file)
+allData = data(filename)
+original_input_filename = filename
+additional_input_filename = ''
 
-def test_v_parser():
-	filename = 'sb12014.7.11'
+
+def test_v_parser(original_intput_filename,additional_input_filename):
+
 	a = 'zhe		  	   l1			   E1,E2,E3,E4,E5								E1,E2'
-	my_info = {}
+
 	#parser = vocab_parser(filename).parser()
 	# parser(my_info)
 	# print_dict(my_info)
 
-	a = data('test')
-	b = basic_parser('input.txt')
-	a.update(b.parser(),output ='testing')
-	print a
-	c = vocab_parser(filename)
+	a = data(original_intput_filename)
+
+	c = vocab_parser(additional_input_filename)
 	a.update(c.parser(),output = 'testing')
 	#a.update(parser)
 	print a
@@ -227,7 +273,23 @@ def test_v_parser():
 #test_v_parser()
 #def update_file(target,*inputs):
 
-filename = 'test'
-allData = data(filename)
+#************************************************************
+#input information pased for porcessing
 
 
+#************************************************************
+#basic parser
+def test_basic_parser(original_intput_filename,additional_input_filename):
+	data_file = 'empty'
+	a =data(data_file)
+	subdir = '/Users/Zhe/Desktop/sat_july_2014/data_2014.07.14'
+	input_file = 'b.txt'
+
+	input_file = os.path.join(subdir,input_file)
+	output_file = os.path.join(subdir,'test')
+
+	parser = basic_parser(input_file)
+	parser = parser.parser()
+	a.update(parser,output = output_file)
+	print a
+#test_basic_parser()
