@@ -13,7 +13,7 @@ def open(filename,mode='a+'):
 	#print 'hi'
 	return codecs.open(filename,mode,'UTF-8')
 
-
+open('basic_info_input.txt')
 dictionary = dictionary()
 
 
@@ -49,6 +49,7 @@ class data(object):
 		'''basic parsing of utf_8 format for output'''
 		string = str(data)
 		out = re.sub("u'","'",string)
+		print '\t data_convert:\tconverting information '
 		return out.encode('utf_8')
 
 	def update(self, func, output = 'newmaster'):
@@ -123,7 +124,7 @@ def sub_test():
 	print a
 #sub_test()
 splitter= lambda string: re.split(',',string)
-input_proce = lambda line: map(splitter,line.split())
+input_proce = lambda line: map(splitter,line.split()) #split the line by space, then split it by ',',return [[]...]
 
 
 class txt_parser(object):
@@ -131,7 +132,9 @@ class txt_parser(object):
 	def __init__(self,txtfile):
 		'''parse a the input txt file into a list of tuples directory,value pair [(directory,value),(),()]
 		directory a list of strings'''
-		self.file = open(txtfile,'r')
+		print 'basic info input filename%s\t'%txtfile
+		self.file = open(txtfile,mode ='r')
+		#for line in self.file: print line
 		self.info = []
 		for index,line in enumerate(self.file):
 			if index == 0:
@@ -140,11 +143,12 @@ class txt_parser(object):
 				dirs = input_proce(line)
 			else:
 				line = input_proce(line)
+				# print 'line 145%s' %line
 				for i2,atom in enumerate(line):
 					if i2 == 0: name = atom
 					else:
 						self.info.append((name+dirs[i2],atom))
-		#print self.info
+		print 'line 151 input data inforamtion:\t%s'%self.info
 	def parser(self):
 		return None
 
@@ -279,17 +283,19 @@ def test_v_parser(original_intput_filename,additional_input_filename):
 
 #************************************************************
 #basic parser
-def test_basic_parser(original_intput_filename,additional_input_filename):
-	data_file = 'empty'
+def test_basic_parser():
+	
+	subdir = '/Users/Zhe/Desktop/sat_july_2014/data_2014.07.15'
+	originalsubdir = '/Users/Zhe/Desktop/sat_july_2014/data_2014.07.14'
+	input_file = 'basic_info_input.txt'
+	data_file = os.path.join(originalsubdir,'test')
 	a =data(data_file)
-	subdir = '/Users/Zhe/Desktop/sat_july_2014/data_2014.07.14'
-	input_file = 'b.txt'
-
 	input_file = os.path.join(subdir,input_file)
 	output_file = os.path.join(subdir,'test')
 
 	parser = basic_parser(input_file)
 	parser = parser.parser()
 	a.update(parser,output = output_file)
-	print a
-#test_basic_parser()
+
+	print a.get_student('YueChen')
+test_basic_parser()

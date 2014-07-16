@@ -6,9 +6,11 @@ from les3 import *
 # import word_bank
 
 import os
+from word_bank import dictionary
+print dictionary.get_i('diffident')
 sub_dir = os.path.dirname(__file__)
-
-print sub_dir
+print dir(dictionary)
+# print sub_dir
 # b={'chongzhang': {'age': 18, 'word': {'wrong': {'fuck': (1.1, 1.2)}}, 'sex': 'gay'}}
 # b['zhouhan']={'sex':'gay'}
 # a=open('test','a+')
@@ -31,12 +33,12 @@ print sub_dir
 # a = data('mastertest.txt')
 # f = lambda x: 'fuck you'
 # a.update(f)
-@trace
-def foo(a='b',**kargs):
-	print map(repr,kargs.items())
-	print kargs
+# @trace
+# def foo(a='b',**kargs):
+# 	print map(repr,kargs.items())
+# 	print kargs
 
-foo(a='b',c='d')
-a = open('foo.txt','a+')
-a.write('a\nbc')
-a.close()
+# foo(a='b',c='d')
+# a = open('foo.txt','a+')
+# a.write('a\nbc')
+# a.close()
