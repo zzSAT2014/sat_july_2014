@@ -1,0 +1,26 @@
+date 2014.7.16
+name				listnum				vocab,test												vocab,false
+GaoYichen           Dl5				B1,B3,A5,B10,C8,C3,C7,B6,A8,C11
+GaoYichen           Dl6				A8,A6,B12,C3,A12,A5,B1,A4,C5,D2
+GaoYichen           Dl8				C10,A8,B8,A13,A4,D6,C2,D13,B3,C4
+GaoYichen           Dl9				B4,C2,C1,A7,B10,A10,A6,C10,A3,C8
+HuangYiheng         Dl5				D10,C2,D9,B4,C10,C4,A11,A10,A6,A9
+HuangYiheng         Dl6				B12,A4,A9,C12,C9,C7,A3,D8,C5,B5
+HuangYiheng         Dl8				A8,A11,B8,B1,A13,A4,D3,C8,C9,D12
+HuangYiheng         Dl9				B2,B9,C6,A7,C9,D3,A12,B12,D7,B7
+LiXingrong          Dl5				D6,A2,B8,D2,A4,C1,D9,C10,A10,A9
+LiXingrong          Dl6				B2,B7,B3,B4,A10,C7,A3,D7,A2,D6
+LiXingrong          Dl8				A8,A9,A12,D4,B5,B12,C8,A11,C11,C6
+LiXingrong          Dl9				D6,A13,A7,D12,B10,B6,C5,D4,D7,A11
+WuShiqi             Dl5				D10,A2,B1,A4,B11,B4,B10,A5,A6,D9
+WuShiqi             Dl6				B12,A12,A5,A9,C7,D6,C8,A2,D11,D9
+WuShiqi             Dl8				B10,B1,A13,A5,C6,C9,C1,B5,D2,C3
+WuShiqi             Dl9				B2,D8,C6,B11,C5,A9,B1,B5,A2,D10
+Mengruolin          Dl5				B8,A3,D8,A4,D9,C6,C2,B1,B7,D9
+Mengruolin          Dl6				D11,B4,C5,B11,B10,C8,D10,B12,A1,A7
+Mengruolin          Dl8				B11,B6,B9,A12,A13,C5,C8,D9,D12,C4
+Mengruolin          Dl9				B4,C2,C1,A4,D12,A7,B8,A12,B3,A11
+XieChen             Dl5				B5,C2,C6,D11,B10,C8,A5,C7,D1,B1
+XieChen             Dl6				A8,B8,A13,A4,D7,A5,B10,A10,C1,D10
+XieChen             Dl8				A8,A5,A12,D10,D4,D3,C7,C11,D13,D11
+XieChen             Dl9				C12,D8,A3,A13,A1,A12,C10,C9,C8,A2

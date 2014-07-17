@@ -1,0 +1,49 @@
+Name	Location	姓名	Grade	Tel	Email	Wechat	High School	Taken SAT	Test Date	Total Score	CR	MA	WR	ES	Taken TOEFL？	Total Score	TOEFLR	TOEFLL	TOEFLW	TOEFLS	Barron3500	Barron800	DirectHits	GRE	Houge	other vocab book	self control	Target score	Enrolled
+JianxinZhang	Guangzhou	张健新	10	18211570086	670052780@qq.com	670052780	1	2	None	None	None	None	None	None	1	101	28	24	27	22	0	0	0	0	1	0	2	3	1
+YuemingGao	Guangzhou	高月明	12	13926108801	499268667@qq.com	499268667	7	1	2014.06.07	1730	500	710	520	7	1	85	19	22	21	23	0	0	0	0	0	1	4	3	1
+QiLi	Guangzhou	李齐	11	18620479147	cepheus.l.q@hotmail.com	LeeQchy	2	2	None	None	None	None	None	None	2	None	None	None	None	None	1	0	0	0	0	0	3	2	0
+ShuxingLi	Guangzhou	黎书行	10	13600469647	873008264@qq.com	宁静(搜手机号吧)	7	2	None	None	None	None	None	None	1	91	24	24	23	20	1	0	0	0	0	1	2	3	0
+ZiweiGuo	Guangzhou	郭紫薇	11	13719002612	Eunice_Guo@hotmail.com	137205966	1	1	2014.01.25	1650	440	670	540	6	1	98	26	25	24	23	0	0	0	0	1	1	3	4	1
+YanghuiChen	Guangzhou	陈洋辉	11	13826092593	1563655831@qq.com	1563655831	5	2	None	None	None	None	None	None	1	78	21	18	21	18	0	0	0	0	0	1	2	3	1
+XiaogeLin	Guangzhou	林晓格	13	18814131314	443578447@qq.com	18814131314	7	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	3	7	0
+QianyiShi	Guangzhou	石倩怡	11	13422347646	shiqianyicindy@163.com	13422347646	3	1	2014.05.03	1940	570	730	640	9	1	99	27	26	24	22	1	0	0	0	0	1	2	4	1
+JiamingZhuo	Guangzhou	卓家铭	11	13660426687	857301534@qq.com	13660426687	3	1	2014.06.07	1920	540	720	660	8	1	101	28	25	25	23	1	0	0	0	0	1	2	3	1
+ShiqiWu	Guangzhou	吴诗琪	11	13826123797	sylvia547@126.com	qijiang881074	3	1	2014.06.07	1930	520	790	620	9	1	89	22	21	23	23	1	0	0	0	1	1	2	4	1
+YangguangLi	Guangzhou	李阳光	11	18988990909	lyangguan@gmail.com	已经加了ˆ_ˆ	1	2	None	None	None	None	None	None	1	85	26	20	20	19	0	0	0	0	0	1	4	3	0
+TingtingYang	Guangzhou	杨汀婷	13	13268214720	970303296@qq.com	970303296	1	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	3	5	0
+ZhijianLi	Guangzhou	李智健	11	15914404731	1292274658@qq.com	海阔天空jp	1	1	2014.06.07	2010	590	790	630	10	1	97	27	25	25	20	0	0	0	0	0	1	1	3	1
+ZihaoHuang	Foshan	黃梓豪	11	13246313877	514742156@qq.com	Joseph_Wong	7	1	2014.05.03	1690	480	750	460	6	1	93	26	24	24	19	1	0	0	0	0	0	2	4	1
+YihengLi	Guangzhou	李宜恒	10	13268253537	578365041@qq.com	578365041	3	2	None	None	None	None	None	None	1	100	25	24	24	27	0	0	0	0	0	1	4	3	0
+ZiruiLiu	Guangzhou	刘子锐	12	18620822176	384934197@qq.con	384934197	2	2	None	None	None	None	None	None	1	77	19	15	21	22	0	0	0	0	1	1	2	3	0
+YingxiLin	Guangzhou	林盈希	11	15975360566	1050613372@qq.com	LYX98518_KEY	7	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	3	4	0
+MingruiZhou	Guangzhou	周明锐	11	18138721016	964473118@qq.com	964473118	2	2	None	None	None	None	None	None	1	78	18	17	21	22	0	0	0	0	0	1	2	3	1
+XuanyiLi	Qingyuan	李宣仪	9	13660252083	1326248622@QQ.com	无。可联系QQ	7	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	3	5	0
+ChenXie	Guangzhou	谢晨	12	18602013144	xiechen1123@163.com	xiechen1123	6	1	2014.06.07	1800	520	720	560	8	1	94	28	25	19	22	0	0	0	0	1	0	4	4	1
+ManliZhang	Guangzhou	张蔓莉	10	15999956584	1026579476@qq.com	imanlii	7	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	1	0	4	2	0
+RuxianLi	Guangzhou	李汝娴	11	15521149599	leeyousen@hotmail.com	lrxusentra	2	1	2014.05.03	1720	480	710	530	7	1	86	23	18	22	23	1	0	0	0	0	0	4	3	1
+JunkunPan	Guangzhou	潘俊锟	11	15813371933	pjk676604@163.com	pjk676604	1	1	2014.06.07	1930	610	700	630	8	1	95	30	25	21	19	1	1	1	0	0	0	2	3	0
+Susana	New York	Susana	10	None	loveyrg@hotmail.com	susana-xu	7	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	3	2	0
+XiaoyingZhang	Guangzhou	张晓莹	11	15013106328	nicole.zxy.39@gmail.com	752060555	2	1	2014.06.07	2010	510	800	700	10	1	100	26	25	25	24	1	1	0	0	0	0	2	3	1
+LuLi	Cholla-bukto-Jeonju	李璐	11	13420688683	lulurevere@gmail.com	l907280616	2	2	None	None	None	None	None	None	1	87	19	25	23	20	0	0	0	0	0	1	3	2	0
+YiyuZhang	Zhuhai	张艺誉	11	13502405019	547290540@qq.com	547290540	2	1	2014.05.03	1510	410	680	420	6	1	74	18	16	20	20	0	0	0	0	0	1	3	4	0
+LishaZhang	Guangzhou	张丽莎	11	13560290663	826598084@qq.com	lisacheung	3	1	2014.06.07	1700	410	740	550	7	1	74	18	18	20	18	1	0	0	0	1	0	3	6	0
+XinrongLi	Guangzhou	李欣荣	11	18028680218	sin-li@hotmail.com	🌴欣荣💤	2	1	2014.06.07	1870	450	800	620	9	2	None	None	None	None	None	0	0	0	0	1	1	4	2	1
+ZhixiangDu	Guangzhou	杜志翔	11	13543489530	381692430@qq.com	Douzicoeng	2	1	2014.06.07	1620	460	740	420	None	1	54	9	10	17	18	0	0	0	0	0	1	4	4	0
+YingchenGao	Guangzhou	高颖琛	11	None	614848999@qq.com	None	1	1	2014.06.07	1860	500	790	570	9	1	85	18	23	24	20	1	0	0	1	1	0	2	4	1
+JiashuDong	Guangzhou	董嘉树	12	18620136008	452505189@qq.com	452505189	7	1	2013.12.01	1840	470	770	600	8	2	None	None	None	None	None	1	0	0	0	1	0	3	4	0
+LeyaoYu	Guangzhou	于乐遥	11	13609729097	hhllbbtt@126.com	ylly905_	2	1	2013.10.25	2060	590	780	690	10	1	93	27	24	22	20	1	0	0	0	0	1	4	2	0
+RuolinMeng	Guangzhou	蒙若琳	11	13560389496	434408031@qq.com	13560389496	7	1	2014.06.07	1760	510	710	540	8	1	77	15	22	18	19	0	0	0	1	1	0	4	3	1
+YihengHuang	Guangzhou	黄以恒	11	18922201108	huangyiheng0927@qq.com	793312844	2	1	2014.06.07	1940	590	720	630	8	1	106	28	28	26	24	0	0	1	0	1	0	4	3	1
+LingyuJiang	Guangzhou	蒋凌云	11	18620627114	646111096@qq.com	18620627114	7	1	2014.06.07	2010	560	800	650	8	1	98	24	24	27	23	1	1	1	0	0	0	3	3	0
+YiZhan	Guangzhou	詹羿	11	15626286949	545267787@qq.com	545267787	7	2	None	None	None	None	None	None	2	None	None	None	None	None	1	1	1	0	1	0	3	4	0
+RonghongDai	Guangzhou	戴榕泓	10	13160885020	dfd2004540@sina.com	dianadai1009	2	2	None	None	None	None	None	None	1	93	22	25	23	23	0	0	0	0	0	1	2	2	0
+KangruiHu	Guangzhou	胡康睿	11	13556103400	599087549@qq.com	599087549	7	1	2014.5.03	1900	490	800	610	9	1	80	22	19	22	18	0	1	0	0	1	1	2	3	1
+YuHu	Indianapolis	胡语	11	None	hyt201291@gmail.com	jackie_yt_hu	7	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	3	2	0
+HuijunLiu	Guangzhou	刘卉君	10	13924172907	2191241192@qq.com	13924172907	2	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	2	4	0
+SongwenSu	Guangzhou	苏颂雯	10	13556015542	806008561@qq.com	806008561	1	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	4	3	0
+AnranChen	Guangzhou	陈安然	12	13622292288	andychenchina@yeah.net	845929564	7	1	2014.01.25	1980	580	760	640	8	1	110	30	30	26	24	0	0	0	0	0	1	2	2	1
+TaoyuChen	Guangzhou	陈韬宇	10	15013390898	taoyulucky@163.com	1306415746	5	2	None	None	None	None	None	None	2	None	None	None	None	None	0	0	0	0	0	1	2	2	0
+TianrenChen	Guangzhou	陈天任	12	13760723767	Estherctr@Hotmail.com	13760723767	6	1	2014.6.7	1610	390	670	550	9	1	81	19	18	22	22	1	0	0	0	1	0	3	3	0
+JiaqianLiang	Guangzhou	梁嘉倩	11	13822211670	kenan28@126.com	Hsarbez	1	1	2014.01.25	1830	490	800	540	6	1	84	23	19	24	20	1	0	0	0	0	0	2	4	0
+JingXu	Guangzhou	徐静	10	15692091820	457891711@qq.com	457891711	7	2	None	None	None	None	None	None	2	None	None	None	None	None	1	1	0	0	1	1	4	3	0
+HaoranLiao	Foshan	廖浩然	11	18924833838	124862386@qq.com	billy_r	6	1	2014.01.25	1760	450	740	570	8	1	87	21	22	21	23	0	0	0	0	1	0	4	4	1

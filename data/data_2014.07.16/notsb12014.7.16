@@ -1,0 +1,26 @@
+date 2014.7.16
+name				listnum				vocab,test												vocab,false
+LiZhijian           Dl5				A2,B5,A4,D7,B2,C7,B8,A8,C11,A11
+LiZhijian           Dl6				C13,D4,C2,C10,D12,B1,C7,B5,A1,A7
+LiZhijian           Dl8				D6,B10,B2,B1,C12,B6,C9,D13,C6,C4
+LiZhijian           Dl9				B4,C2,C6,A7,D2,B10,A6,D1,C8,D10
+ZhangXiaoying       Dl5				A3,C1,C5,B3,D7,B10,C4,C7,B9,A11
+ZhangXiaoying       Dl6				D1,A8,A6,B3,B10,A5,B11,A9,C9,D6
+ZhangXiaoying       Dl8				A10,A2,C5,D10,D5,C8,B5,C11,B13,C6
+ZhangXiaoying       Dl9				C12,C1,C11,A6,D4,B3,A8,A11,D10,D5
+ShiQianyi           Dl5				B8,A1,B1,D11,D8,C8,B2,A10,A6,C11
+ShiQianyi           Dl6				A6,D4,D5,B9,B10,B1,A3,D10,B5,B6
+ShiQianyi           Dl8				A10,B8,C12,C5,D3,D1,C8,A13,C3,D7
+ShiQianyi           Dl9				C12,B4,C1,A7,B5,B1,C3,A6,C10,A2
+ZhuoJiaming         Dl5				D2,B1,B2,C11,C8,A5,C9,A1,D3,C7
+ZhuoJiaming         Dl6				B2,C6,B9,A12,C11,B13,D12,A3,A4,D9
+ZhuoJiaming         Dl8				A9,D4,C13,B1,A11,C11,A13,C2,D13,C6
+ZhuoJiaming         Dl9				D6,C2,C1,B1,B10,A5,C7,C9,B13,D5
+ChenAnran           Dl5				D6,D2,C2,B11,D9,C8,C4,B1,C11,A1
+ChenAnran           Dl6				B7,B3,B8,A12,B11,D12,C8,D3,A11,D2
+ChenAnran           Dl8				D6,B6,B7,D4,A13,A8,D1,A9,B13,B3
+ChenAnran           Dl9				C2,D2,B8,C11,C9,A6,B5,B12,A8,D5
+LiRuxian            Dl5				D6,A2,B3,C5,C10,B2,C7,D9,C11,D3
+LiRuxian            Dl6				C4,B8,B4,D4,D12,D11,A11,D2,A1,B5
+LiRuxian            Dl8				B6,D10,A5,C7,C8,D8,A9,C2,D2,C4
+LiRuxian            Dl9				D8,C6,C1,B10,A1,A10,A8,C9,C8,D5

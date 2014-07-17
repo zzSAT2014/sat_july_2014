@@ -1,0 +1,4 @@
+name          sex  school
+chongzhang    gay    guangya
+zhouhan       gay	 nankai
+zhe           male   qizhong 
