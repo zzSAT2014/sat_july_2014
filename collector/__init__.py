@@ -40,4 +40,7 @@ vocab_parser
 from sub_dic import sub_dict
 sub_dict
 
+from mock_test_parser import CRmock_parser
+CRmock_parser
+
 from print_dict import print_dict

@@ -40,7 +40,7 @@ output_dir = '/Users/Zhe/Desktop/testing'
 # 			['LiZhijian', 'ZhangXiaoying', 'ShiQianyi', 'ZhuoJiaming', 'ChenAnran', 'LiRuxian'],
 # 			['GaoYichen', 'HuangYiheng', 'LiXingrong', 'WuShiqi', 'Mengruolin', 'XieChen']]
 # lisnum_gs = [['Dl5','Dl6','Dl8','Dl9'],['Dl5','Dl6','Dl8','Dl9'],['Dl5','Dl6','Dl8','Dl9']]
-name_gs = ['alone']
-groups = [['ZejiaZhang']]
+name_gs = ['group0']
+groups = [['KangruiHu,YuemingGao,ZiweiGuo,MingruiZhou,YueChen,HuijunLiu']]
 lisnum_gs =[['Dl1','Dl2']]
 generator(name_gs,groups,lisnum_gs,originalData, subdirectory =output_dir)

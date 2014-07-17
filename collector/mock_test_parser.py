@@ -92,4 +92,4 @@ def test_mock_parser():
 	print original
 	#print_dict(empty)
 
-test_mock_parser()
+#test_mock_parser()
