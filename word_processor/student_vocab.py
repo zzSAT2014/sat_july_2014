@@ -26,8 +26,8 @@ class student_vocab(student):
 	'''reduce to student_vocab
 	{vocab:blah,blah} ---> {blah,blah}'''
 
-	def __init__(self,name):
-		student.__init__(self,name)
+	def __init__(self,name,data_object):
+		student.__init__(self,name,data_object)
 		if 'vocab' not in self.info:#fail safe
 			sub_dict(self.info,['vocab','list'],value=())
 			sub_dict(self.info,['vocab','word'],value={})
@@ -41,9 +41,9 @@ get_coor = lambda tu: tu[1]
 #add datetime module later for evaluation
 class student_vocab_list(student_vocab):
 
-	def __init__(self,name,lis_num):
+	def __init__(self,name,lis_num,data_object):
 		'''return student_specific, list_specific information and probabily process it'''
-		student_vocab.__init__(self,name)
+		student_vocab.__init__(self,name,data_object)
 
 
 		self.wordsInDict = dictionary.get_l(lis_num) #all words inside a list

@@ -4,7 +4,7 @@ sys.path.append('/Users/Zhe/Desktop/sat_july_2014')
 
 from pprint import pprint
 #pprint(sys.path)
-
+from collector import mydata
 import re
 import os
 subdir = os.path.dirname(__file__)
@@ -51,12 +51,12 @@ groups = [['ZhangJianxin', 'GuoZiwei', 'ZhouMingrui', 'ChenYanghui', 'GaoYueMing
 lisnum_gs = [['Dl5','Dl6','Dl8','Dl9'],['Dl5','Dl6','Dl8','Dl9'],['Dl5','Dl6','Dl8','Dl9']]
 
 em = date.today()
-date = '%s.%s.%s'%(em.year,em.month,em.day)
+curdate = '%s.%s.%s'%(em.year,em.month,em.day)
 
 
 
 
-def generate_for_lis_groups(gpNamel,lis_nums):
+def generate_for_lis_groups(gpNamel,lis_nums,data_object):
 	'''	input: gp --> a list containing all the names inside a group
 				lis_num --> a list containing all numbers to be test_student
 
@@ -65,20 +65,23 @@ def generate_for_lis_groups(gpNamel,lis_nums):
 	output = []
 	for name in gpNamel:
 		for lis_num in lis_nums:
-			a = student_vocab_list(name,lis_num)
+			a = student_vocab_list(name,lis_num,data_object)
 			output.append(a.generate_list())
 	return output
 
 
 
 
-def generate_list_specific(name_gs,groups,lisnum_gs,date):
+def generate_list_specific(name_gs,groups,lisnum_gs,data_object,date = curdate, subdirectory = ''):
 	'''generate all txt files need for testing, with name in name_gs+date  as filename'''
 	print date
 	for identifier, group, lisnums in zip(name_gs,groups,lisnum_gs):
-		data = generate_for_lis_groups(group,lisnums)
+		data = generate_for_lis_groups(group,lisnums, data_object)
 		print data
 		a = vocabulary_tests_data(data,date)
-		a.output(identifier+date)
+		if len(subdirectory) ==0:a.output(subdirectory + identifier+date)
+		else: a.output(subdirectory +'/' +identifier+date)
 
-generate_list_specific(name_gs,groups,lisnum_gs,date)
+#generate_list_specific(name_gs,groups,lisnum_gs,mydata,subdirectory = '/Users/Zhe/Desktop/testing')
+
+

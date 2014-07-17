@@ -32,15 +32,15 @@ def open(filename,mode='a+'):
 class student(object):
 	'''get all inforamtion about an individual student
 	{zhe:straight, li:gay} --> zhe --> {straight} '''
-	def __init__(self,name):
-		if name in data.info: self.info = data.get_student(name)
+	def __init__(self,name,data_object):
+		if name in data.info: self.info = data_object.get_student(name)
 		else: self.info={} 
 		self.name = name
 	def __str__(self):
-		print_dict.print_dict(self.info)
+		print_dict(self.info)
 		return 'end'
 
 def test_student():
-	a = student('LiZhijian')
+	a = student('LiZhijian',mydata)
 	print a
 #test_student()
