@@ -1,0 +1,4 @@
+date 2014.7.17
+name				listnum				vocab,test												vocab,false
+YueChen             Bl9				B4,D7,B8,B5,C9,D1,D4,B9,D8,A8								B8,D8
+YueChen             Bl10			A1,B5,C6,C7,D3,B2,A9,A3,B1,D5								C7,D3,B1,D5

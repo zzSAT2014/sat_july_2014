@@ -4,6 +4,7 @@ from copy import copy
 def csub_dict(dic,lis,value):
 	'''create a subdictionary if there there is not one'''
 	#print '\t\tvalue in c_sub\t%s'%value
+	#print lis
 	if len(lis) == 0:
 		return value
 	else:

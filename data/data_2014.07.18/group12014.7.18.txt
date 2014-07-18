@@ -1,0 +1,10 @@
+date 2014.7.18
+name				listnum				vocab,test												vocab,false
+AnranChen           Dl1				C16,D11,D11,C10,C6,A3,B6,D6,B14,A1
+AnranChen           Dl2				D12,B3,B2,A15,B8,A9,A13,B16,D1,C14
+AnranChen           Dl3				B2,C6,D10,C5,D8,A12,D9,A2,D11,D12
+AnranChen           Dl4				A5,C12,A1,B3,A13,A11,D6,B9,D12,B8
+RuolinMeng          Dl1				C1,C7,B2,C12,B4,A10,D15,B3,A13,A2
+RuolinMeng          Dl2				D4,A8,C12,B10,C6,D7,B16,C8,D9,D15
+RuolinMeng          Dl3				D2,D4,B2,B3,B13,D8,C11,A6,B1,D9
+RuolinMeng          Dl4				A4,B12,D10,D9,C1,D12,A7,D1,D7,B3

@@ -9,7 +9,7 @@ sys.path.append(subdir)
 
 import re
 
-from shared import open
+
 from print_dict import print_dict
 
 class data(object):

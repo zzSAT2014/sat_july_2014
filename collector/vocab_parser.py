@@ -71,11 +71,14 @@ class vocab_parser(txt_parser):
 		self.info = []#(flag(wheter it is append),directory,result)
 
 	def parser(self):
+		regex = re.compile('[A-Za-z]')
 		def inner(dic):
 			for index,line in enumerate(self.file):
 				if index == 0: date=line.split()[1] #get dates
 				elif index == 1: continue
 				else:
+
+					if not re.match(regex,line): continue
 					print line 
 					name,listNum,tested,wrong = line.split()
 					l_trans = index_2_word(listNum)  #list-specific translator

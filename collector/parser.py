@@ -9,7 +9,7 @@ subdir = os.path.dirname(__file__)
 sys.path.append(subdir)
 
 import re
-from shared import open
+
 from print_dict import print_dict
 from sub_dic import sub_dict
 from data import data
@@ -24,7 +24,9 @@ class txt_parser(object):
 		'''parse a the input txt file into a list of tuples directory,value pair [([directory],[value]),(),()]
 		directory a list of strings'''
 		print 'basic info input filename%s\t'%txtfile
+
 		self.file = open(txtfile,mode ='r')
+		#print self.file.read()
 		#for line in self.file: print line
 		self.info = []
 		for index,line in enumerate(self.file):
@@ -32,14 +34,16 @@ class txt_parser(object):
 				#print line 
 				#print 'hi'
 				dirs = input_proce(line)
+				#print 'line 37 title directory is %s'%dirs
 			else:
 				line = input_proce(line)
 				# print 'line 145%s' %line
 				for i2,atom in enumerate(line):
+					#print 'line 41 current index %s \t current atom %s'%(i2,atom)
 					if i2 == 0: name = atom
 					else:
 						self.info.append((name+dirs[i2],atom))
-		print 'line 41 input data inforamtion:\t%s'%self.info
+		print 'line 46 input data inforamtion:\n%s'%self.info
 	def parser(self):
 		return None
 	def __str__(self):

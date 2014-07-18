@@ -80,7 +80,7 @@ def generate_list_specific(name_gs,groups,lisnum_gs,data_object,date = curdate, 
 		print data
 		a = vocabulary_tests_data(data,date)
 		if len(subdirectory) ==0:a.output(subdirectory + identifier+date)
-		else: a.output(subdirectory +'/' +identifier+date)
+		else: a.output(subdirectory +'/' +identifier+date +'.txt')
 
 #generate_list_specific(name_gs,groups,lisnum_gs,mydata,subdirectory = '/Users/Zhe/Desktop/testing')
 
