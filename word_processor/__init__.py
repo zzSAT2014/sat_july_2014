@@ -1,6 +1,6 @@
-#access to super level
+
 import sys
-sys.path.append('/Users/Zhe/Desktop/sat_july_2014')
+
 __all__ = ['generate_list_specific']
 __doc__ = '''generate_list_specific <--- name_gs  <--- group name identifier
 														e.g. ['sb','notsb1','notsb2']
@@ -18,6 +18,9 @@ __doc__ = '''generate_list_specific <--- name_gs  <--- group name identifier
 import os
 subdir = os.path.dirname(__file__)
 sys.path.append(subdir)
+
+#access to super level
+sys.path.append(os.path.abspath(os.path.join(subdir, os.pardir)))
 
 
 from student_vocab import student_vocab_list

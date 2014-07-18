@@ -1,11 +1,13 @@
 #access to modules in the upper level, mainly dictionary from word bank
 import sys
-sys.path.append('/Users/Zhe/Desktop/sat_july_2014')
+
 
 #access to current level
 import os
 subdir = os.path.dirname(__file__)
 sys.path.append(subdir)
+sys.path.append(os.path.abspath(os.path.join(subdir, os.pardir)))
+
 
 import re
 

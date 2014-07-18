@@ -1,14 +1,16 @@
 #access from super level
 import sys
-sys.path.append('/Users/Zhe/Desktop/sat_july_2014')
+import os
+subdir = os.path.dirname(__file__)
+
+sys.path.append(subdir) #current
+sys.path.append(os.path.abspath(os.path.join(subdir, os.pardir))) #super
 
 from pprint import pprint
 #pprint(sys.path)
 
 import re
-import os
-subdir = os.path.dirname(__file__)
-sys.path.append(subdir)
+
 
 #access collector from upper level
 from collector import mydata

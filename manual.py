@@ -11,7 +11,7 @@ originalData = collector.data(filename)
 from datetime import date
 em = date.today()
 curdate = '%s.%s.%s'%(em.year,em.month,em.day)
-
+print curdate
 
 inputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.17/group02014.7.17 2.txt'
 outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.17/output1'
@@ -22,7 +22,7 @@ def update_data(inputfile,outputfile,parser):#parser should be imported from col
 	originalData.update(f,output = outputfile)
 	print originalData
 parser = collector.vocab_parser #, collector.basic_parser collector.CRmock_parser
-print_dict(originalData.get_student('ZiweiGuo')) 
+print_dict(originalData.get_student('RuolinMeng')['Tel']) 
 #update_data(inputfile,outputfile,parser)
 #vocab update
 # vocab_parser_filename = ''
@@ -62,5 +62,7 @@ print_dict(originalData.get_student('ZiweiGuo'))
 # name_gs = ['group0','group1']
 # groups = [['JianxinZhang', 'ZiweiGuo', 'MingruiZhou', 'YuemingGao'],['AnranChen','RuolinMeng']]
 # lisnum_gs =[['Dl1','Dl2','Dl3','Dl4'],['Dl1','Dl2','Dl3','Dl4']]
+
+
 
 #generator(name_gs,groups,lisnum_gs,originalData, subdirectory =output_dir)

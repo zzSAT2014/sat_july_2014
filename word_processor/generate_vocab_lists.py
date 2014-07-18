@@ -1,14 +1,16 @@
 from datetime import date
 import sys
-sys.path.append('/Users/Zhe/Desktop/sat_july_2014')
+import os
+subdir = os.path.dirname(__file__)
+sys.path.append(subdir)
+sys.path.append(os.path.abspath(os.path.join(subdir, os.pardir)))
+
 
 from pprint import pprint
 #pprint(sys.path)
 from collector import mydata
 import re
-import os
-subdir = os.path.dirname(__file__)
-sys.path.append(subdir)
+
 
 from student_vocab import student_vocab_list
 

@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/Zhe/Desktop/sat_july_2014')
+
 import re
 
 from copy import copy
@@ -7,8 +7,12 @@ import os
 subdir = os.path.dirname(__file__)
 sys.path.append(subdir)
 
+#access to parent path
+sys.path.append(os.path.abspath(os.path.join(subdir, os.pardir)))
+
+
 import string
-import codecs
+
 from word_bank import dictionary
 from shared import open
 
