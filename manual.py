@@ -2,7 +2,7 @@ import collector
 from collector import print_dict
 #print collector.__doc__
 #intial data need to be initialized 
-filename = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.17/output1'
+filename = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/output5'
 
 originalData = collector.data(filename)
 #print originalData
@@ -13,17 +13,19 @@ em = date.today()
 curdate = '%s.%s.%s'%(em.year,em.month,em.day)
 print curdate
 
-inputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.17/group02014.7.17 2.txt'
-outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.17/output1'
+inputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/mock_test_group2'
+outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/output5'
 
 def update_data(inputfile,outputfile,parser):#parser should be imported from collector
 	Parser = parser(inputfile)
 	f = Parser.parser()
 	originalData.update(f,output = outputfile)
-	print originalData
-parser = collector.vocab_parser #, collector.basic_parser collector.CRmock_parser
-print_dict(originalData.get_student('RuolinMeng')['Tel']) 
+	#print originalData
+parser = collector.CRmock_parser#collector.vocab_parser #, collector.basic_parser collector.CRmock_parser
 #update_data(inputfile,outputfile,parser)
+print_dict(originalData.get_student('XiaoyingZhang'))
+#print_dict(originalData.get_student('RuolinMeng')) 
+
 #vocab update
 # vocab_parser_filename = ''
 # vocabParser = collector.vocab_parser(vocab_parser_filename)

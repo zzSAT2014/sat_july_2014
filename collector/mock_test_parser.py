@@ -77,7 +77,7 @@ class CRmock_parser(txt_parser):
 					for cate,identi,flag in [(wrong,'wrong',False),(correct,'correct',True)]:    #word specific: word: wrong : (numdates,[....]), correct : (numdates,[....]), mostRecent : (flag,date)
 						for word in cate: #for word in each category
 							#translate(word)
-							sub_dict(dic,[name,'CRmock','word',word,identi],func=word_add(date) ,value = (0,[]))
+							sub_dict(dic,[name,'CRmock','word',word,identi],func=word_add(date) ,value = (0,[]))#note wrong denotation, should have used 'question number instead of word'
 							#sub_dict(dic,[name,'vocab','word',word,'mostRecent'],func =lambda x: (flag,date),value=()) #
 		return inner
 
