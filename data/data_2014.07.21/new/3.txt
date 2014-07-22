@@ -1,0 +1,6 @@
+date 2014.7.20
+name				listnum				vocab,test												vocab,false
+YuemingGao          Dl1				B1,B13,B7,A9,B10,D14,C8,C18,A2,B12		A9
+YuemingGao          Dl2				B7,B10,C10,C15,D14,C7,A16,C5,B16,D3		C5
+YuemingGao          Dl5				B8,D10,B1,A5,B10,C4,A11,D8,C11,B5		D10
+YuemingGao          Dl6				B7,C13,D4,C11,D12,D8,B12,A11,A1,B6		None

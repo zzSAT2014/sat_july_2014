@@ -2,7 +2,7 @@ import collector
 from collector import print_dict
 #print collector.__doc__
 #intial data need to be initialized 
-filename = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/output5'
+filename = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.21/output14'
 
 originalData = collector.data(filename)
 #print originalData
@@ -13,19 +13,27 @@ em = date.today()
 curdate = '%s.%s.%s'%(em.year,em.month,em.day)
 print curdate
 
-inputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/mock_test_group2'
-outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/output5'
+inputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18/cindy'
+
+outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.21/output15'
 
 def update_data(inputfile,outputfile,parser):#parser should be imported from collector
 	Parser = parser(inputfile)
 	f = Parser.parser()
 	originalData.update(f,output = outputfile)
 	#print originalData
-parser = collector.CRmock_parser#collector.vocab_parser #, collector.basic_parser collector.CRmock_parser
+parser = collector.vocab_parser #collector.CRmock_parser#collector.vocab_parser #, collector.basic_parser collector.CRmock_parser, vocab_parser
 #update_data(inputfile,outputfile,parser)
-print_dict(originalData.get_student('XiaoyingZhang'))
-#print_dict(originalData.get_student('RuolinMeng')) 
+#print_dict(originalData.get_student(''))
+#print originalData.get_student('JiamingZhuo')['Tel']
+#print originalData.get_student('ZhijianLi')['Tel']
+print_dict(originalData.get_student('RuolinMeng')) 
+def print_tel(lis):
+	for name in lis:
+		print name + '\tTel\t:' + repr(originalData.get_student(name)['Tel'])
 
+lis= ['RuxianLi','ChenXie','ShiqiWu']
+#print_tel(lis)
 #vocab update
 # vocab_parser_filename = ''
 # vocabParser = collector.vocab_parser(vocab_parser_filename)
@@ -51,20 +59,17 @@ print_dict(originalData.get_student('XiaoyingZhang'))
 # print originalData
 
 
-# import word_processor
+import word_processor
 # #print word_processor.__doc__
-# generator = word_processor.generate_list_specific
-# output_dir = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.18'
+generator = word_processor.generate_list_specific
+output_dir = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.22'
 
-# # # name_gs =['sb','notsb1','notsb2']
-# # # groups = [['ZhangJianxin', 'GuoZiwei', 'ZhouMingrui', 'ChenYanghui', 'GaoYueMing', 'HuKangrui', 'LiuHuijun', 'ZhangShenghong'],
-# # # 			['LiZhijian', 'ZhangXiaoying', 'ShiQianyi', 'ZhuoJiaming', 'ChenAnran', 'LiRuxian'],
-# # # 			['GaoYichen', 'HuangYiheng', 'LiXingrong', 'WuShiqi', 'Mengruolin', 'XieChen']]
-# # # lisnum_gs = [['Dl5','Dl6','Dl8','Dl9'],['Dl5','Dl6','Dl8','Dl9'],['Dl5','Dl6','Dl8','Dl9']]
-# name_gs = ['group0','group1']
-# groups = [['JianxinZhang', 'ZiweiGuo', 'MingruiZhou', 'YuemingGao'],['AnranChen','RuolinMeng']]
-# lisnum_gs =[['Dl1','Dl2','Dl3','Dl4'],['Dl1','Dl2','Dl3','Dl4']]
-
+name_gs =['Cindy']
+groups = [['QianyiShi']]
+lisnum_gs = [['Bl7','Bl8']]
+# name_gs = ['group0','group1','group2','group3']
+# groups = [[  'MingruiZhou', 'ChenXie','ZhiweiGuo'],['XinrongLi','RuxianLi'],['YuemingGao'],['ZhijianLi','ShiqiWu','AnranChen','XiaoyingZhang','RuolingMeng']]
+# lisnum_gs =[['Dl1','Dl2','Dl7','Dl8'],['Dl7','Dl8'],['Dl5','Dl6','Dl9','Dl10'],['Bl1','Bl2','Bl3','Bl4']]
 
 
 #generator(name_gs,groups,lisnum_gs,originalData, subdirectory =output_dir)

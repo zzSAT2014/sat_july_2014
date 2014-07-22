@@ -1,0 +1,6 @@
+date 2014.7.22
+name				listnum				vocab,test												vocab,false
+XinrongLi           Dl7				D10,C10,C4,D9,D8,D2,A1,B4,B5,A10
+XinrongLi           Dl8				B11,A9,B7,D4,A5,B12,C8,C9,C11,D11
+RuxianLi            Dl7				C10,B8,B2,C7,C9,C11,A11,A5,B11,B10
+RuxianLi            Dl8				A7,C10,D6,A12,D10,B1,A13,B4,B12,D1

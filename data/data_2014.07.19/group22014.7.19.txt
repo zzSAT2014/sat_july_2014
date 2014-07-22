@@ -1,0 +1,6 @@
+date 2014.7.19
+name				listnum				vocab,test												vocab,false
+QianyiShi           Dl1				C15,B15,A18,B11,C12,D10,C9,B16,D4,D2                       None
+QianyiShi           Dl2				C1,C6,B13,C16,D13,D3,D2,B6,D15,B1                          C16
+QianyiShi           Dl3				C10,A5,D1,B13,D12,A6,A8,A4,A13,B5                          None
+QianyiShi           Dl4				D5,A4,A12,B11,D9,B1,B5,C4,B2,C6                            None

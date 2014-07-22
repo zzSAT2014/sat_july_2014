@@ -1,0 +1,10 @@
+date 2014.7.21
+name				listnum				vocab,test												vocab,false
+MingruiZhou         Dl3				B8,A1,C13,B13,C5,C4,D2,A4,B11,B5
+MingruiZhou         Dl4				D3,A5,D9,D11,A1,B1,D8,A2,B3,B10
+MingruiZhou         Dl5				D10,D2,B3,B11,C1,C6,C4,D1,B6,A6
+MingruiZhou         Dl6				A8,D1,A6,B7,B8,D4,A12,D12,B5,B6
+ChenXie             Dl3				B4,C3,D4,D6,B2,C6,C13,C5,C4,A13
+ChenXie             Dl4				A5,C12,D11,C1,C3,A9,A2,A3,D12,A1
+ChenXie             Dl5				B5,B3,C6,D7,B10,D4,C3,B6,A10,A9
+ChenXie             Dl6				C6,A13,A4,D12,C8,A3,D3,A2,D9,A7

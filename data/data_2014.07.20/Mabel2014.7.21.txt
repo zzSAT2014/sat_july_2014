@@ -1,0 +1,8 @@
+date 2014.7.21
+name				listnum				vocab,test												vocab,false
+JiamingZhuo         Dl1				D7,D1,D14,A15,B11,A12,B16,D2,A8,A16      None
+JiamingZhuo         Dl2				D12,B9,A3,B4,B10,A13,B5,C8,C14,B1       None
+JiamingZhuo         Dl3				B4,B12,C2,C12,B1,A11,A7,D2,A3,A2       None
+JiamingZhuo         Dl4				C10,C12,C1,A11,A8,A3,A10,C7,A6,D3     None
+JiamingZhuo         Dl5				B5,D9,A5,D11,B10,C8,B2,A11,C5,B7      None
+JiamingZhuo         Dl6				B3,D5,C3,C2,B10,C9,D6,A2,D2,A1        None

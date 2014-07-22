@@ -1,0 +1,4 @@
+date 2013.07.19
+name   sentenceNum       extraction      structure     clause                                   word                   phrase           
+zhe     S1					True			True		1,1.1,1.2,2.1,2.3,2.3.2         	pompous,presumptuous     is_taken_for	
+zhe		S2					False			False		1,2,3,l2.1,l2.2                   	None					is_taken_for,i_love_u,gay_lao	

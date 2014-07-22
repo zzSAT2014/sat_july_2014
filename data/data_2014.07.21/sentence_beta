@@ -1,0 +1,29 @@
+date 2013.07.21
+name         sentenceNum       extraction      structure     clause                                   word                   phrase           
+QianyiShi     	S15					False			False		11,21,211,212                	nonnative              in_unpredictable_ways	
+QianyiShi		S16					False			True		21,211,212                   	scrap					reduce_to,be_bound_to	
+QianyiShi		S17					True			True		211								None 					forms_of_order
+QianyiShi		S19					False			True		None 						None	at_the_level_of
+QianyiShi		S20					True			True		None None None
+
+ZhijianLi	S15	True	True	212	None	None	
+ZhijianLi	S16	True	True	21	None		reduce_to
+ZhijianLi	S17	True	True	None		None	None
+ZhijianLi	S18	True	True	None		None	None
+ZhijianLi	S19	True	True	None		None	None
+ZhijianLi	S20	True	True	None		None	None
+
+XiaoyingZhang	S15	True	True	2111		None	None
+XiaoyingZhang	S16	True	True	None		None	None
+XiaoyingZhang	S17	True	True	None		None	None
+XiaoyingZhang	S18	True	True	None		None	None
+XiaoyingZhang	S19	True	True	4		None	None
+XiaoyingZhang	S20	True	True	None		None	None
+
+
+MingruiZhou	S15	True	True	None		None	None
+MingruiZhou	S16	True	True	None		None	None
+MingruiZhou	S17	True	True	None		None	None
+MingruiZhou	S18	True	True	None		None	None
+MingruiZhou	S19	True	True	None		None	None
+MingruiZhou	S20	True	True	231		None	None

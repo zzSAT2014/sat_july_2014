@@ -1,0 +1,14 @@
+date 2014.7.21
+name				listnum				vocab,test												vocab,false
+XinrongLi           Dl1				D7,B1,A9,D11,A3,D6,D5,C19,C13,A16
+XinrongLi           Dl2				B14,A8,B15,B2,D1,A7,C8,C14,A12,B1
+XinrongLi           Dl3				C9,A10,B8,A5,D7,D13,C7,D12,A2,D11
+XinrongLi           Dl4				A12,C10,A1,C2,B1,A2,D7,B10,C6,D3
+XinrongLi           Dl5				D10,B9,B3,B10,D4,C7,B7,D5,A9,D3
+XinrongLi           Dl6				A8,B2,A6,B9,B13,B8,C3,C2,D12,B1
+RuxianLi            Dl1				B5,D1,B1,B6,C17,D18,B3,A5,B8,D9
+RuxianLi            Dl2				D12,C15,C7,C16,B16,D6,D11,A6,B6,A14
+RuxianLi            Dl3				B4,A9,C1,D7,D13,B10,D8,D2,A4,D11
+RuxianLi            Dl4				D5,A12,D10,D11,A7,D1,B5,B3,B6,A6
+RuxianLi            Dl5				B5,D6,D9,C3,A5,C4,D1,B6,D9,A9
+RuxianLi            Dl6				C3,C13,B13,B8,B4,D4,C8,A3,D11,A1

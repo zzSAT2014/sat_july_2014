@@ -1,0 +1,8 @@
+date 2014.7.21
+name				listnum				vocab,test												vocab,false
+ShiqiWu           Dl1				D7,B1,A9,D11,A3,D6,D5,C19,C13,A16       None
+ShiqiWu            Dl2				B14,A8,B15,B2,D1,A7,C8,C14,A12,B1      A7,C8,C14
+ShiqiWu           Dl3				C9,A10,B8,A5,D7,D13,C7,D12,A2,D11      A10,D11
+ShiqiWu           Dl4				A12,C10,A1,C2,B1,A2,D7,B10,C6,D3	None
+ShiqiWu            Dl5				D10,B9,B3,B10,D4,C7,B7,D5,A9,D3         B10
+ShiqiWu           Dl6				A8,B2,A6,B9,B13,B8,C3,C2,D12,B1         D12,B2

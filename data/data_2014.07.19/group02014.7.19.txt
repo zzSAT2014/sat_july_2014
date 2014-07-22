@@ -1,0 +1,14 @@
+date 2014.7.19
+name				listnum				vocab,test												vocab,false
+ZiweiGuo            Dl3				B8,A5,D4,C2,D6,C6,A14,A11,B3,D11
+ZiweiGuo            Dl4				C5,A12,D11,B7,A13,C3,D6,A8,B5,D12
+ZiweiGuo            Dl5				B5,D6,D9,D7,B4,B10,C10,D11,B6,B8
+ZiweiGuo            Dl6				B2,B7,B3,B8,B9,C10,B1,A10,C1,B12
+MingruiZhou         Dl3				C9,C3,D6,B2,C12,A11,C4,A6,B1,C8
+MingruiZhou         Dl4				C9,D10,C12,A11,D6,D2,A4,A10,B3,D1
+MingruiZhou         Dl5				D2,A4,D5,B11,D11,A5,C9,C11,B9,C7
+MingruiZhou         Dl6				D5,B12,C13,D4,C11,C10,C6,A5,C5,B6
+YuemingGao          Dl3				A10,D6,B2,B3,B6,A7,B7,D12,D13,D8
+YuemingGao          Dl4				D5,A4,D3,B11,D8,A11,A3,B7,C4,B2
+YuemingGao          Dl5				D6,B8,C8,B11,D9,C6,B4,C10,A10,A1
+YuemingGao          Dl6				A6,C13,B13,D3,A12,C2,C10,D12,A3,C1

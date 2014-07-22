@@ -48,3 +48,5 @@ from mock_test_parser import CRmock_parser
 CRmock_parser
 
 from print_dict import print_dict
+
+from sentence_parser import sentence_parser

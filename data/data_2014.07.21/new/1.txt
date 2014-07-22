@@ -1,0 +1,9 @@
+date 2014.7.17
+name				listnum				vocab,test												vocab,false
+
+YuemingGao          Dl1				C7,B2,C8,A10,A18,A4,C17,D5,C18,A13							C7
+YuemingGao          Dl2				A8,B15,A11,B8,A9,C16,D13,C1,D15,A14							B15
+ZiweiGuo            Dl1				C7,D3,A9,C3,A4,C17,B15,C2,D18,D12  							None
+ZiweiGuo            Dl2				D9,D13,A15,C15,B8,B7,B5,B16,B6,C11							None
+MingruiZhou         Dl1				C1,A7,B13,D12,B7,A15,D17,A12,D18,D15   							B13,A15,D17
+MingruiZhou         Dl2				B9,B5,A4,D5,A16,D7,C5,D13,D8,A14                    					A16,D7,C5
