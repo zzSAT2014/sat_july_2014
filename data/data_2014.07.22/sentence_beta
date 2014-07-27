@@ -1,0 +1,17 @@
+date 2013.07.22
+name         sentenceNum       extraction      structure     clause                                   word                   phrase     
+ZijianLi	S21	False	False	3	None	play_down
+ZijianLi	S22	True	True	None	None	None
+ZijianLi	S23	True	True	311	None	None
+ZijianLi	S24	True	True	None	None	None
+ZijianLi	S25	False	True	None	None	change_agent
+XinrongLi	S21	True	False	3	None	None
+XinrongLi	S22	True	False	22,221	None	None
+XinrongLi	S23	True	False	2	None	None
+XinrongLi	S24	True	False	2	None	None
+XinrongLi	S25	True	False	2,3	None	None
+JiamingZhuo	S21	False	False	21	None	None
+JiamingZhuo	S22	False	True	None	None	None
+JiamingZhuo	S23	False	False	None	None	None
+JiamingZhuo	S24	False	True	1,2	None	None
+JiamingZhuo	S25	True	True	None	None	None

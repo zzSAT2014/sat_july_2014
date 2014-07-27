@@ -1,0 +1,54 @@
+date 2014.7.27
+name				listnum				vocab,test												vocab,false
+XinrongLi           Bl1				A4,A5,C10,A3,D9,C9,D3,A10,D10,D5
+XinrongLi           Bl2				B4,B10,A6,B1,B5,D4,C2,D9,A8,C8
+XinrongLi           Bl3				B2,D7,C3,D9,B7,D3,A10,D5,A9,D8
+XinrongLi           Bl4				C1,A7,A8,C6,C8,D3,A6,A2,C4,B7
+XinrongLi           Dl6				B2,C13,A13,D8,B10,A10,C8,D3,D2,D9
+XinrongLi           Dl7				A3,A2,D8,D2,B7,D5,A9,B3,B5,A10
+XinrongLi           Dl8				A7,A8,B9,A12,B8,B1,C13,B2,D5,A6
+XinrongLi           Dl9				D8,C1,B1,B10,D7,B6,D9,C10,A1,D5
+XinrongLi           Dl10				D6,A10,B12,A4,B13,B7,C1,C3,C4,A12
+
+
+XinrongLi           Bl3				C2,D4,B2,D7,C3,A8,A5,C8,D2,D8
+XinrongLi           Bl4				D4,D1,B2,C8,D3,C1,B4,B7,A10,D9
+XinrongLi           Bl5				C3,B1,B4,C8,B6,B9,D3,B2,A1,D1
+XinrongLi           Bl6				A9,D10,C6,B10,B5,A4,B1,B8,B9,A2
+
+
+XinrongLi           Bl1				A5,B8,A3,A9,C7,C8,B7,A1,D4,B5
+XinrongLi           Bl2				B8,A6,A4,B5,D4,A3,D8,D9,C6,B1
+XinrongLi           Bl5				B1,A2,D9,B8,C8,B2,B5,A4,D1,C9
+XinrongLi           Bl6				A9,A4,C9,C7,B2,B5,B10,D1,C10,D7
+XinrongLi           Bl7				A3,A6,A1,D4,A2,D10,C2,D9,D8,C7
+XinrongLi           Bl8				D10,B7,C10,A8,D9,C4,C6,D1,A9,B9
+
+
+XinrongLi           Bl2				B10,D10,B5,D2,D8,C2,C10,A2,C6,A4
+XinrongLi           Bl3				C2,D7,A7,C1,C8,B9,D2,C5,B3,A9
+XinrongLi           Bl7				C6,B3,B8,D4,C3,B6,C10,D9,D8,A7
+XinrongLi           Bl8				D5,D9,C10,D7,B4,D10,A10,C4,D4,C3
+XinrongLi           Bl9				B3,B4,C10,C2,A1,A10,B9,D10,C8,A8
+XinrongLi           Bl10				D1,B10,D4,B5,B2,A7,B8,A2,C9,A8
+
+
+XinrongLi           Bl1				C10,A8,B4,C4,D3,C1,D4,B1,D5,D1
+XinrongLi           Bl2				C8,B8,B2,D1,D8,B3,D9,A8,C6,A10
+XinrongLi           Bl3				C2,B3,C6,A8,B10,D2,B8,A10,A3,D6
+XinrongLi           Bl4				B10,C2,A10,D3,A1,C4,C7,B7,C3,D9
+XinrongLi           Bl5				B1,B10,D5,A7,D9,B6,B4,C6,C5,D4
+
+
+XinrongLi           Bl6				C1,B10,B5,A4,D4,A10,D7,C10,A1,C8
+XinrongLi           Bl7				C6,B7,C3,C1,B10,D5,C2,D7,B2,D10
+XinrongLi           Bl8				D5,B10,C8,A7,C1,B4,A6,A10,C5,B8
+XinrongLi           Bl9				D9,A4,C4,D8,D4,B1,D5,D7,A7,A8
+XinrongLi           Bl10				C6,C4,B3,D6,D10,C9,A4,B4,A10,C3
+XinrongLi           Bl11				C1,A4,C3,D5,D2,C7,A1,D7,A9,A8
+XinrongLi           Bl12				D8,A7,C8,C4,D1,A5,C10,B4,A2,B8
+
+
+XinrongLi           Bl13				C8,D2,A4,A7,A10,B7,C7,A1,D7,C5
+XinrongLi           Bl14				A5,A8,B1,A9,C7,B4,A2,A4,B5,B3
+XinrongLi           Bl15				B2,A4,D9,A5,C10,D10,C2,D7,B10,D1

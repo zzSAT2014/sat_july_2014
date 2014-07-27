@@ -1,0 +1,68 @@
+date 2014.7.27
+name				listnum				vocab,test												vocab,false
+AnranChen           Bl9				B3,A2,D7,A5,C10,A4,B6,A6,B2,D8
+AnranChen           Bl10				C3,D4,A6,B9,D10,D7,B2,B4,B3,B1
+AnranChen           Bl11				B8,A7,D10,C5,A4,C3,D6,D7,A9,A10
+AnranChen           Bl12				C5,A1,B10,C6,A2,A4,D5,B2,B8,D10
+AnranChen           Bl1				C3,A7,A9,B6,D9,D2,D6,D4,B10,D1
+AnranChen           Bl2				D4,D1,D7,C4,B3,D3,D6,C9,C8,A7
+AnranChen           Bl3				C6,C1,C7,B4,B8,D10,A9,D8,B6,D6
+AnranChen           Bl4				B5,B9,C1,C7,B8,B7,C3,C10,D6,A5
+AnranChen           Bl5				A3,D5,D9,D8,B7,B8,C1,C6,B2,C5
+
+
+AnranChen           Bl13				A2,C6,D10,D4,D3,B5,A6,D8,A8,D7
+AnranChen           Bl14				B1,A10,D9,C10,C1,C4,A1,D3,B5,D4
+AnranChen           Bl15				C8,B2,B4,D5,A5,A2,A8,D2,B5,D1
+AnranChen           Bl16				A3,D5,C8,D6,A4,D2,C7,B2,A1,C10
+AnranChen           Bl6				D8,D10,A3,B5,B7,C2,C3,D1,D9,D2
+AnranChen           Bl7				C9,B3,A9,C10,C4,A2,D4,A1,C7,B4
+AnranChen           Bl8				A6,C10,D3,D10,A5,A10,D9,B3,A2,D4
+AnranChen           Bl9				B3,C6,A5,D9,B5,D6,D5,C4,C7,B9
+AnranChen           Bl10				A1,A8,C4,B9,C8,D8,A7,C9,A3,D1
+
+
+AnranChen           Bl17				A10,C8,C6,A2,D4,D10,C4,D2,C2,B5
+AnranChen           Bl18				C6,B1,A1,A4,C10,D10,A2,D2,D9,D8
+AnranChen           Bl19				A4,C5,A6,C10,B5,C4,A1,A5,C2,D5
+AnranChen           Bl20				B2,D3,C6,C3,D8,B6,B9,B1,D7,C4
+AnranChen           Dl1				D13,B1,B2,D14,B10,C3,B11,A13,D16,C13
+AnranChen           Dl2				D4,C13,C15,C7,A16,B5,B11,C1,D15,B1
+AnranChen           Dl3				A5,B12,B7,C6,C13,C7,D8,D9,A4,B5
+AnranChen           Dl4				B12,D10,C12,A1,A11,D6,B9,B10,C7,C11
+AnranChen           Dl5				A2,A3,C2,A4,C1,B10,A11,B7,A1,A6
+
+
+AnranChen           Bl1				C9,B3,A7,C6,A9,C7,D8,A1,C10,C5
+AnranChen           Bl2				C8,B1,B2,D1,B3,D5,D6,C6,C7,A7
+AnranChen           Bl3				D4,A6,B5,A2,A4,B7,D3,A10,A9,D8
+AnranChen           Bl4				A4,D5,D2,B2,C8,D3,A1,D10,B7,B3
+AnranChen           Bl5				A9,C10,C4,D8,C7,C9,B3,A4,D1,B2
+AnranChen           Bl6				D8,D10,A3,C7,B5,A5,B4,D7,C8,A8
+AnranChen           Bl7				A4,C5,D3,C8,C4,C3,D5,A6,C1,C7
+AnranChen           Bl8				B3,B7,D7,B1,A6,D3,C6,D1,B2,C2
+AnranChen           Bl9				B3,D2,B7,A4,C9,D1,D4,B1,B8,D10
+AnranChen           Bl10				A1,D1,B10,B9,D7,D10,D6,A4,B4,A8
+AnranChen           Dl6				A8,D1,B13,C2,B11,C10,B1,A3,D10,B5
+AnranChen           Dl7				D10,A2,D8,D2,C7,B6,D5,C11,A8,D1
+AnranChen           Dl8				B11,B10,D10,B1,D5,D9,C11,D2,B13,C6
+AnranChen           Dl9				D6,C6,A7,C11,A10,A4,A6,B12,C8,D5
+AnranChen           Dl10				B10,D12,A11,A15,B7,C11,B3,B6,D6,D3
+
+
+AnranChen           Bl11				A2,B6,D8,C7,C10,B5,B2,C8,D3,C9
+AnranChen           Bl12				C2,D4,D1,A1,B3,B5,C6,C1,D9,B8
+AnranChen           Bl13				A2,A9,B3,C9,C1,B4,B2,A4,A1,B9
+AnranChen           Bl14				B9,A8,D2,A5,B10,C3,D7,B1,A1,D5
+AnranChen           Bl15				A6,D10,C4,D9,A7,C7,D2,B1,C6,A1
+AnranChen           Bl16				A5,D3,D10,C5,C7,B9,A6,B2,B6,C6
+AnranChen           Bl17				C7,D5,D9,A5,A9,D10,C4,D2,C2,B5
+AnranChen           Bl18				C6,C1,B8,C8,D1,D5,C4,D10,C5,A2
+AnranChen           Bl19				C8,A6,A10,B3,A5,B1,C9,B2,B5,C7
+AnranChen           Bl20				B2,C3,B9,C1,B5,B4,B7,B10,D7,C9
+
+
+AnranChen           Xl1				C9,A5,A8,C3,B6,B7,A10,B3,D10,C5
+AnranChen           Xl2				C1,D10,D4,D2,D7,B3,A1,A2,A9,A10
+AnranChen           Xl3				D4,B5,D7,C10,A4,B2,C5,C9,B3,D8
+AnranChen           Xl4				A8,D5,D1,C2,D2,A1,A2,C7,A10,D9

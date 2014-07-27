@@ -1,0 +1,6 @@
+date 2014.7.23
+name				listnum				vocab,test												vocab,false
+RuxianLi            Dl5				B5,D2,A4,C8,B11,B4,C10,A10,A8,A9
+RuxianLi            Dl6				D4,B7,B13,A13,B9,A12,C2,B11,A9,C1
+RuxianLi            Dl7				C10,D9,D8,A8,B8,C7,B6,A7,C3,C9
+RuxianLi            Dl8				C9,A8,A9,B9,B7,B2,D9,B5,C2,A1

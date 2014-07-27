@@ -29,12 +29,7 @@ class data(object):
 		self.info =  string
 		self.file.close()
 
-	def convert(self,data):
-		'''basic parsing of utf_8 format for output'''
-		string = str(data)
-		out = re.sub("u'","'",string)
-		print '\t data_convert:\tconverting information '
-		return out.encode('utf_8')
+
 
 	def update(self, func, output = 'newmaster'):
 		'''modify the input and save it'''
@@ -45,7 +40,7 @@ class data(object):
 		self.file = open(output,'a+')
 		#print self.info
 		#print self.info
-		self.file.write(self.convert(self.info))
+		self.file.write(repr(self.info))
 		self.file.close()
 
 	def get_student(self,name):

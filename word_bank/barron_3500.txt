@@ -228,3 +228,17 @@ torpor	trite	vindicate	transparent
 tractable	viable	trifling	trepidation
 tranquility	virulent	virtuoso	vigor
 turbulence	vilify	vindictive	trivial
+@List 21
+vacillate	threadbare	unprecedented	undermine
+tyranny	whimsical	veracity	universal
+unkempt	unwarranted	turmoil	voluble
+zealot	usurp	vulnerable	venerate
+thrive	voluminous	uniformity	transcendent
+tirade	volatile	verbose	transient
+torpor	trite	vindicate	transparent
+tractable	viable	trifling	trepidation
+tranquility	virulent	virtuoso	vigor
+turbulence	vilify	vindictive	trivial
+@List 22
+
+

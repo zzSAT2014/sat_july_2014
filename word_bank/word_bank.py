@@ -107,6 +107,9 @@ class dictionary(object):
 		tempdata, templdata =  generate_dict(divide_list(read_file(subdir+"/barron_800")),'B')
 		self.data = combi_dict(self.data,tempdata)
 		self.ldata = combi_dict(self.ldata,templdata)
+		tempdata, templdata =  generate_dict(divide_list(read_file(subdir+"/barron_3500.txt")),'X')
+		self.data = combi_dict(self.data,tempdata)
+		self.ldata = combi_dict(self.ldata,templdata)
 		#print '\tafter combining these two \t%s' %self.ldata['Bl2']
 		self.rdata = reverse_dict(self.data)
 	def get_w(self,index):

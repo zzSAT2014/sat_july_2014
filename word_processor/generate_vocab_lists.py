@@ -41,7 +41,7 @@ class vocabulary_tests_data (object):
 		a.write('name' +'\t'*4+ 'listnum' + '\t'*4+'vocab,test' +'\t'*12+ 'vocab,false')
 		a.write('\n')
 		for atom in self.data:
-			print atom#iterable
+			print atom    #iterable
 			a.write(vocabulary_tests_data.process_line(self,atom)+'\n')
 		a.close()
 
@@ -60,7 +60,7 @@ curdate = '%s.%s.%s'%(em.year,em.month,em.day)
 
 def generate_for_lis_groups(gpNamel,lis_nums,data_object):
 	'''	input: gp --> a list containing all the names inside a group
-				lis_num --> a list containing all numbers to be test_student
+				lis_num --> a list containing all numbers to be tested
 
 		output: list containing all information to be printed
 	'''
@@ -70,6 +70,7 @@ def generate_for_lis_groups(gpNamel,lis_nums,data_object):
 			a = student_vocab_list(name,lis_num,data_object)
 			output.append(a.generate_list())
 	return output
+
 
 
 
