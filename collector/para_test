@@ -1,0 +1,4 @@
+Name	Date	Serial Num	Extraction	Sentence	Phrase	Vocab
+Zhe	2014.07.31	201401P01.0101	TRUE	None	have_fun,set_up	hi,hello
+Zhe	2014.07.31	201401P01.0102	TRUE	1,2,3,5	have_fun,set_up	None
+Zhe	2014.07.31	201401P01.0103	TRUE	1,2	jiby	hi,hello

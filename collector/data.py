@@ -49,11 +49,54 @@ class data(object):
 		#print_dict(self.info[name])
 		if name in self.info: return self.info[name]
 		else: return {}
+	def remove(self,parent_dir,dir_key,output = 'newmaster'):
+		'''parent_dir <--- a list of directories
+			dir_key <--- field to be remove_field
+
+			remove indicated field of all students and output the file using update'''
+		fun = remove_field(parent_dir,dir_key)
+		self.update(fun,output = output)
+
 	def __str__(self):
 		print_dict(self.info)
 		
 		return 'end'
 
+
+#####used to remove specific parts of data, data manipualtion
+def access_subdirectory(dir,dictionary):
+	if len(dir) == 0: return dictionary
+	else: 
+		#print '\tline 13 %s'%dir
+		curkey,furkey = dir[0],dir[1:]
+		if curkey in dictionary: return access_subdirectory(furkey,dictionary[curkey])
+		else: return None 
+
+def test_access_subdir():
+	a= {1:{2:{4:5},'none':2}}
+	print access_subdirectory([1,2,4],a)
+	if not access_subdirectory([1,2,5],a): print 'hello world'
+	b= access_subdirectory([1,2],a)
+	print b
+	del b[4]   
+	print a
+
+#test_access_subdir()
+
+def remove_field(parent_dir,dir_key):
+	'''destined_dir: a list containing all sub-directory to find required a field'''
+	def inner(dictionary):
+		for student in dictionary:
+			if not access_subdirectory(parent_dir,dictionary[student]): print 'oops not here'
+			if access_subdirectory(parent_dir,dictionary[student]): 
+				subdict = access_subdirectory(parent_dir,dictionary[student])
+				print 'validation%s'%(dir_key in subdict)
+				if dir_key in subdict:
+					print 'remove%s'%(subdict[dir_key])
+					del subdict[dir_key]
+		print 'removing.........'
+	print 'building deleter'
+	return inner
 
 def test_data():
 	#a= data('empty')
