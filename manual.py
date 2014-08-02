@@ -2,11 +2,11 @@ import collector
 from collector import print_dict
 #print collector.__doc__
 #intial data need to be initialized 
-filename = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.23/output6'
+filename = '/Users/Zhe/Desktop/sat_july_2014/data/database'
 
-originalData = collector.data(filename)
-#print originalData
-
+originalData = collector.data(filename,mode = 'db')
+print originalData
+#print_dict(originalData)
 
 from datetime import date
 em = date.today()
@@ -15,7 +15,7 @@ print curdate
 
 inputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.14/basic_info_input'
 
-outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/data_2014.07.23/output7'
+outputfile = '/Users/Zhe/Desktop/sat_july_2014/data/database'
 
 def update_data(inputfile,outputfile,parser):#parser should be imported from collector
 	Parser = parser(inputfile)
@@ -23,14 +23,13 @@ def update_data(inputfile,outputfile,parser):#parser should be imported from col
 	originalData.update(f,output = outputfile)
 	#print originalData
 parser = collector.basic_parser
-par_dir = ['CRmock']
-key_dir = 'word'
-originalData.remove(par_dir,key_dir,output = outputfile) #collector.CRmock_parser#collector.vocab_parser #, collector.basic_parser collector.CRmock_parser, 
+#originalData.update(lambda x:x, output = outputfile)
+#collector.CRmock_parser#collector.vocab_parser #, collector.basic_parser collector.CRmock_parser, 
 #update_data(inputfile,outputfile,parser)
 #print_dict(originalData.get_student(''))
 #print originalData.get_student('JiamingZhuo')['Tel']
 #print originalData.get_student('ZhijianLi')['Tel']
-print_dict(originalData.get_student('XinrongLi')) 
+#print_dict(originalData.get_student('XinrongLi')) 
 def print_tel(lis):
 	for name in lis:
 		print name + '\tTel\t:' + repr(originalData.get_student(name)['Tel'])

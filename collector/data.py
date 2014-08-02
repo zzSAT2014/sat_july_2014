@@ -9,6 +9,8 @@ sys.path.append(subdir)
 
 sys.path.append(os.path.abspath(os.path.join(subdir, os.pardir)))
 
+import shelve
+sopen = lambda filename: shelve.open(filename,writeback = True)
 
 import re
 
@@ -16,32 +18,43 @@ import re
 from print_dict import print_dict
 
 class data(object):
-	def __init__(self,filename,mode = 'r+'):
+	def __init__(self,filename,mode = 'normal'):
 		'''opens up the file in r+ mode, unless otherwise specified, i.e use a+ to create file'''
-		self.file = open(filename,mode = mode)
+		if mode is 'normal':
+			self.file = open(filename,mode = 'r+')
+			string = ''
+			for line in self.file:
+				string = eval(line)
+		elif mode is 'db':
+			self.file = sopen(filename)
+			string = self.file
 		self.name = filename
 		# string=self.file.read().strip()
-		string = ''
-		for line in self.file:
-			string = eval(line)
+		
 		#print 'hi'
 		#print string
 		self.info =  string
-		self.file.close()
 
 
 
-	def update(self, func, output = 'newmaster'):
+	def update(self, func, output = None):
 		'''modify the input and save it'''
-		func(self.info)
-		#print_dict(self.info)
-		self.file = open(output,'a+')
-		os.remove(output)
-		self.file = open(output,'a+')
-		#print self.info
-		#print self.info
-		self.file.write(repr(self.info))
-		self.file.close()
+		def write2db(mydict,dbfile):
+			for key,value in mydict.items():
+				#print key,'\n',value
+				dbfile[key] = value
+		try:
+			if output == None: output = self.name
+			func(self.info)
+			#print_dict(self.info)
+			self.dbfile = sopen(output)
+			
+
+			#print self.info
+			#print self.info
+			write2db(self.info,self.dbfile)
+		finally:
+			self.dbfile.close()
 
 	def get_student(self,name):
 		'''return all information about the student'''
@@ -54,11 +67,14 @@ class data(object):
 			dir_key <--- field to be remove_field
 
 			remove indicated field of all students and output the file using update'''
+
 		fun = remove_field(parent_dir,dir_key)
 		self.update(fun,output = output)
 
 	def __str__(self):
-		print_dict(self.info)
+		
+		
+		print_dict(eval(repr(self.info)))
 		
 		return 'end'
 
