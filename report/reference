@@ -1,0 +1,1140 @@
+     1	initiliaitzing word bank
+     2	2014.8.6
+     3	'Vocab'-->
+     4	    'Books'-->
+     5	        'HouGe'-->
+     6	            'False'
+     7	        'Barron3500'-->
+     8	            'False'
+     9	        'Barron800'-->
+    10	            'False'
+    11	        'GRE'-->
+    12	            'False'
+    13	        'Other'-->
+    14	            'True'
+    15	        'DirectHits'-->
+    16	            'False'
+    17	'Target'-->
+    18	    '2200'
+    19	'sentence'-->
+    20	    'S20'-->
+    21	        'date'-->
+    22	            '2013.07.21'
+    23	        'extraction'-->
+    24	            'True'
+    25	        'clause'-->
+    26	            []
+    27	        'structure'-->
+    28	            'True'
+    29	        'phrase'-->
+    30	            []
+    31	    'S19'-->
+    32	        'date'-->
+    33	            '2013.07.21'
+    34	        'extraction'-->
+    35	            'True'
+    36	        'clause'-->
+    37	            []
+    38	        'structure'-->
+    39	            'True'
+    40	        'phrase'-->
+    41	            []
+    42	    'S18'-->
+    43	        'date'-->
+    44	            '2013.07.21'
+    45	        'extraction'-->
+    46	            'True'
+    47	        'clause'-->
+    48	            []
+    49	        'structure'-->
+    50	            'True'
+    51	        'phrase'-->
+    52	            []
+    53	    'date'-->
+    54	        '2013.07.21'-->
+    55	            'absorption'-->
+    56	                (0.3333333333333333, [(1, 'S15'), (1, 'S16'), (0, 'S17'), (0, 'S18'), (0, 'S19'), (0, 'S20')])
+    57	            'extraction'-->
+    58	                (1.0, {'wrong': [], 'correct': ['S15', 'S16', 'S17', 'S18', 'S19', 'S20']})
+    59	    'phrase'-->
+    60	        'reduce to'-->
+    61	            (1, ['2013.07.21'])
+    62	    'S17'-->
+    63	        'date'-->
+    64	            '2013.07.21'
+    65	        'extraction'-->
+    66	            'True'
+    67	        'clause'-->
+    68	            []
+    69	        'structure'-->
+    70	            'True'
+    71	        'phrase'-->
+    72	            []
+    73	    'S16'-->
+    74	        'date'-->
+    75	            '2013.07.21'
+    76	        'extraction'-->
+    77	            'True'
+    78	        'clause'-->
+    79	            [('S16', '21')]
+    80	        'structure'-->
+    81	            'True'
+    82	        'phrase'-->
+    83	            ['reduce to']
+    84	    'S15'-->
+    85	        'date'-->
+    86	            '2013.07.21'
+    87	        'extraction'-->
+    88	            'True'
+    89	        'clause'-->
+    90	            [('S15', '212')]
+    91	        'structure'-->
+    92	            'True'
+    93	        'phrase'-->
+    94	            []
+    95	'Location'-->
+    96	    'Guangzhou'
+    97	'Tel'-->
+    98	    '15914404731'
+    99	'HighSchool'-->
+   100	    'Guangya'
+   101	'Email'-->
+   102	    '1292274658@qq.com'
+   103	'vocab'-->
+   104	    'date'-->
+   105	        '2014.7.18'-->
+   106	            [('Dl5', 1.0), ('Dl6', 0.5), ('Dl8', 0.5), ('Dl9', 0.5)]
+   107	        '2014.7.21'-->
+   108	            [('Dl4', 1.0), ('Dl7', 1.0), ('Dl9', 1.0), ('Dl10', 1.0)]
+   109	        '2014.7.20'-->
+   110	            [('Dl1', 1.0), ('Dl2', 0.7), ('Dl5', 1.0), ('Dl6', 1.0)]
+   111	        '2014.7.23'-->
+   112	            [('Bl5', 1.0), ('Bl6', 1.0), ('Bl7', 1.0), ('Bl8', 1.0)]
+   113	        '2014.7.22'-->
+   114	            [('Bl1', 1.0), ('Bl2', 1.0), ('Bl3', 1.0), ('Bl4', 0.9)]
+   115	    'word'-->
+   116	        'founder'-->
+   117	            'correct'-->
+   118	                (1, ['2014.7.23'])
+   119	            'mostRecent'-->
+   120	                (True, '2014.7.23')
+   121	        'dirge'-->
+   122	            'correct'-->
+   123	                (1, ['2014.7.21'])
+   124	            'mostRecent'-->
+   125	                (True, '2014.7.21')
+   126	        'fecund'-->
+   127	            'correct'-->
+   128	                (1, ['2014.7.21'])
+   129	            'mostRecent'-->
+   130	                (True, '2014.7.21')
+   131	        'arid'-->
+   132	            'correct'-->
+   133	                (1, ['2014.7.22'])
+   134	            'mostRecent'-->
+   135	                (True, '2014.7.22')
+   136	        'foster'-->
+   137	            'correct'-->
+   138	                (1, ['2014.7.23'])
+   139	            'mostRecent'-->
+   140	                (True, '2014.7.23')
+   141	        'analogous'-->
+   142	            'correct'-->
+   143	                (1, ['2014.7.20'])
+   144	            'mostRecent'-->
+   145	                (True, '2014.7.20')
+   146	        'overwrought'-->
+   147	            'correct'-->
+   148	                (1, ['2014.7.21'])
+   149	            'mostRecent'-->
+   150	                (True, '2014.7.21')
+   151	        'intractable'-->
+   152	            'correct'-->
+   153	                (1, ['2014.7.18'])
+   154	            'mostRecent'-->
+   155	                (True, '2014.7.18')
+   156	        'equivocal'-->
+   157	            'correct'-->
+   158	                (1, ['2014.7.23'])
+   159	            'mostRecent'-->
+   160	                (True, '2014.7.23')
+   161	        'facetious'-->
+   162	            'correct'-->
+   163	                (1, ['2014.7.18'])
+   164	            'mostRecent'-->
+   165	                (True, '2014.7.18')
+   166	        'denounce'-->
+   167	            'correct'-->
+   168	                (1, ['2014.7.18'])
+   169	            'mostRecent'-->
+   170	                (True, '2014.7.18')
+   171	        'cavalier'-->
+   172	            'correct'-->
+   173	                (1, ['2014.7.21'])
+   174	            'mostRecent'-->
+   175	                (True, '2014.7.21')
+   176	        'incoherent'-->
+   177	            'correct'-->
+   178	                (1, ['2014.7.18'])
+   179	            'mostRecent'-->
+   180	                (True, '2014.7.18')
+   181	        'mercurial'-->
+   182	            'correct'-->
+   183	                (1, ['2014.7.20'])
+   184	            'mostRecent'-->
+   185	                (True, '2014.7.20')
+   186	        'watershed'-->
+   187	            'correct'-->
+   188	                (1, ['2014.7.21'])
+   189	            'mostRecent'-->
+   190	                (True, '2014.7.21')
+   191	        'affluent'-->
+   192	            'wrong'-->
+   193	                (1, ['2014.7.18'])
+   194	            'mostRecent'-->
+   195	                (False, '2014.7.18')
+   196	        'nefarious'-->
+   197	            'correct'-->
+   198	                (1, ['2014.7.21'])
+   199	            'mostRecent'-->
+   200	                (True, '2014.7.21')
+   201	        'sedentary'-->
+   202	            'correct'-->
+   203	                (1, ['2014.7.18'])
+   204	            'mostRecent'-->
+   205	                (True, '2014.7.18')
+   206	        'insular'-->
+   207	            'wrong'-->
+   208	                (1, ['2014.7.21'])
+   209	            'mostRecent'-->
+   210	                (False, '2014.7.21')
+   211	        'affable'-->
+   212	            'correct'-->
+   213	                (1, ['2014.7.22'])
+   214	            'mostRecent'-->
+   215	                (True, '2014.7.22')
+   216	        'destitute'-->
+   217	            'correct'-->
+   218	                (1, ['2014.7.18'])
+   219	            'mostRecent'-->
+   220	                (True, '2014.7.18')
+   221	        'innovator'-->
+   222	            'correct'-->
+   223	                (1, ['2014.7.21'])
+   224	            'mostRecent'-->
+   225	                (True, '2014.7.21')
+   226	        'acrimonious'-->
+   227	            'correct'-->
+   228	                (1, ['2014.7.20'])
+   229	            'mostRecent'-->
+   230	                (True, '2014.7.20')
+   231	        'plasticity'-->
+   232	            'correct'-->
+   233	                (1, ['2014.7.18'])
+   234	            'mostRecent'-->
+   235	                (True, '2014.7.18')
+   236	        'forestall'-->
+   237	            'correct'-->
+   238	                (1, ['2014.7.23'])
+   239	            'mostRecent'-->
+   240	                (True, '2014.7.23')
+   241	        'vituperative'-->
+   242	            'wrong'-->
+   243	                (1, ['2014.7.18'])
+   244	            'mostRecent'-->
+   245	                (False, '2014.7.18')
+   246	        'myriad'-->
+   247	            'correct'-->
+   248	                (1, ['2014.7.21'])
+   249	            'mostRecent'-->
+   250	                (True, '2014.7.21')
+   251	        'resilient'-->
+   252	            'correct'-->
+   253	                (2, ['2014.7.18', '2014.7.20'])
+   254	            'mostRecent'-->
+   255	                (True, '2014.7.20')
+   256	        'forsake'-->
+   257	            'correct'-->
+   258	                (1, ['2014.7.23'])
+   259	            'mostRecent'-->
+   260	                (True, '2014.7.23')
+   261	        'proliferation'-->
+   262	            'wrong'-->
+   263	                (1, ['2014.7.18'])
+   264	            'mostRecent'-->
+   265	                (False, '2014.7.18')
+   266	        'eschew'-->
+   267	            'correct'-->
+   268	                (1, ['2014.7.18'])
+   269	            'mostRecent'-->
+   270	                (True, '2014.7.18')
+   271	        'foreshadow'-->
+   272	            'correct'-->
+   273	                (2, ['2014.7.18', '2014.7.20'])
+   274	            'mostRecent'-->
+   275	                (True, '2014.7.20')
+   276	        'address'-->
+   277	            'correct'-->
+   278	                (1, ['2014.7.22'])
+   279	            'mostRecent'-->
+   280	                (True, '2014.7.22')
+   281	        'precursor'-->
+   282	            'correct'-->
+   283	                (1, ['2014.7.20'])
+   284	            'mostRecent'-->
+   285	                (True, '2014.7.20')
+   286	        'disseminate'-->
+   287	            'correct'-->
+   288	                (1, ['2014.7.23'])
+   289	            'mostRecent'-->
+   290	                (True, '2014.7.23')
+   291	        'didactic'-->
+   292	            'correct'-->
+   293	                (1, ['2014.7.23'])
+   294	            'mostRecent'-->
+   295	                (True, '2014.7.23')
+   296	        'belie'-->
+   297	            'correct'-->
+   298	                (1, ['2014.7.20'])
+   299	            'mostRecent'-->
+   300	                (True, '2014.7.20')
+   301	        'disenfranchise'-->
+   302	            'correct'-->
+   303	                (1, ['2014.7.21'])
+   304	            'mostRecent'-->
+   305	                (True, '2014.7.21')
+   306	        'exacting'-->
+   307	            'correct'-->
+   308	                (1, ['2014.7.23'])
+   309	            'mostRecent'-->
+   310	                (True, '2014.7.23')
+   311	        'astute'-->
+   312	            'correct'-->
+   313	                (1, ['2014.7.22'])
+   314	            'mostRecent'-->
+   315	                (True, '2014.7.22')
+   316	        'cynic'-->
+   317	            'correct'-->
+   318	                (1, ['2014.7.22'])
+   319	            'mostRecent'-->
+   320	                (True, '2014.7.22')
+   321	        'duplicity'-->
+   322	            'correct'-->
+   323	                (1, ['2014.7.23'])
+   324	            'mostRecent'-->
+   325	                (True, '2014.7.23')
+   326	        'marginal'-->
+   327	            'correct'-->
+   328	                (1, ['2014.7.21'])
+   329	            'mostRecent'-->
+   330	                (True, '2014.7.21')
+   331	        'cacophony'-->
+   332	            'correct'-->
+   333	                (1, ['2014.7.20'])
+   334	            'mostRecent'-->
+   335	                (True, '2014.7.20')
+   336	        'exploit'-->
+   337	            'correct'-->
+   338	                (1, ['2014.7.23'])
+   339	            'mostRecent'-->
+   340	                (True, '2014.7.23')
+   341	        'ungainly'-->
+   342	            'wrong'-->
+   343	                (1, ['2014.7.18'])
+   344	            'mostRecent'-->
+   345	                (False, '2014.7.18')
+   346	        'caricature'-->
+   347	            'correct'-->
+   348	                (2, ['2014.7.20', '2014.7.22'])
+   349	            'mostRecent'-->
+   350	                (True, '2014.7.22')
+   351	        'composure'-->
+   352	            'correct'-->
+   353	                (1, ['2014.7.22'])
+   354	            'mostRecent'-->
+   355	                (True, '2014.7.22')
+   356	        'arrest'-->
+   357	            'correct'-->
+   358	                (1, ['2014.7.21'])
+   359	            'mostRecent'-->
+   360	                (True, '2014.7.21')
+   361	        'confounded'-->
+   362	            'correct'-->
+   363	                (2, ['2014.7.18', '2014.7.21'])
+   364	            'mostRecent'-->
+   365	                (True, '2014.7.21')
+   366	        'satire'-->
+   367	            'correct'-->
+   368	                (1, ['2014.7.18'])
+   369	            'mostRecent'-->
+   370	                (True, '2014.7.18')
+   371	        'aplomb'-->
+   372	            'wrong'-->
+   373	                (1, ['2014.7.18'])
+   374	            'mostRecent'-->
+   375	                (False, '2014.7.18')
+   376	        'anomaly'-->
+   377	            'correct'-->
+   378	                (1, ['2014.7.20'])
+   379	            'mostRecent'-->
+   380	                (True, '2014.7.20')
+   381	        'histrionic'-->
+   382	            'correct'-->
+   383	                (1, ['2014.7.21'])
+   384	            'mostRecent'-->
+   385	                (True, '2014.7.21')
+   386	        'credulity'-->
+   387	            'correct'-->
+   388	                (1, ['2014.7.22'])
+   389	            'mostRecent'-->
+   390	                (True, '2014.7.22')
+   391	        'dismiss'-->
+   392	            'correct'-->
+   393	                (1, ['2014.7.23'])
+   394	            'mostRecent'-->
+   395	                (True, '2014.7.23')
+   396	        'magnanimous'-->
+   397	            'correct'-->
+   398	                (1, ['2014.7.18'])
+   399	            'mostRecent'-->
+   400	                (True, '2014.7.18')
+   401	        'extant'-->
+   402	            'correct'-->
+   403	                (1, ['2014.7.23'])
+   404	            'mostRecent'-->
+   405	                (True, '2014.7.23')
+   406	        'attentive'-->
+   407	            'correct'-->
+   408	                (1, ['2014.7.22'])
+   409	            'mostRecent'-->
+   410	                (True, '2014.7.22')
+   411	        'defiance'-->
+   412	            'correct'-->
+   413	                (1, ['2014.7.22'])
+   414	            'mostRecent'-->
+   415	                (True, '2014.7.22')
+   416	        'augment'-->
+   417	            'correct'-->
+   418	                (1, ['2014.7.22'])
+   419	            'mostRecent'-->
+   420	                (True, '2014.7.22')
+   421	        'vapid'-->
+   422	            'wrong'-->
+   423	                (1, ['2014.7.18'])
+   424	            'mostRecent'-->
+   425	                (False, '2014.7.18')
+   426	        'apprehension'-->
+   427	            'correct'-->
+   428	                (1, ['2014.7.22'])
+   429	            'mostRecent'-->
+   430	                (True, '2014.7.22')
+   431	        'hackneyed'-->
+   432	            'correct'-->
+   433	                (2, ['2014.7.20', '2014.7.23'])
+   434	            'mostRecent'-->
+   435	                (True, '2014.7.23')
+   436	        'apocryphal'-->
+   437	            'correct'-->
+   438	                (1, ['2014.7.22'])
+   439	            'mostRecent'-->
+   440	                (True, '2014.7.22')
+   441	        'detached'-->
+   442	            'correct'-->
+   443	                (1, ['2014.7.23'])
+   444	            'mostRecent'-->
+   445	                (True, '2014.7.23')
+   446	        'divergent'-->
+   447	            'correct'-->
+   448	                (1, ['2014.7.23'])
+   449	            'mostRecent'-->
+   450	                (True, '2014.7.23')
+   451	        'rejuvenate'-->
+   452	            'correct'-->
+   453	                (1, ['2014.7.20'])
+   454	            'mostRecent'-->
+   455	                (True, '2014.7.20')
+   456	        'antithesis'-->
+   457	            'correct'-->
+   458	                (1, ['2014.7.22'])
+   459	            'mostRecent'-->
+   460	                (True, '2014.7.22')
+   461	        'confound'-->
+   462	            'correct'-->
+   463	                (1, ['2014.7.22'])
+   464	            'mostRecent'-->
+   465	                (True, '2014.7.22')
+   466	        'lugubrious'-->
+   467	            'correct'-->
+   468	                (1, ['2014.7.21'])
+   469	            'mostRecent'-->
+   470	                (True, '2014.7.21')
+   471	        'intransigent'-->
+   472	            'correct'-->
+   473	                (1, ['2014.7.18'])
+   474	            'mostRecent'-->
+   475	                (True, '2014.7.18')
+   476	        'degenerate'-->
+   477	            'correct'-->
+   478	                (1, ['2014.7.22'])
+   479	            'mostRecent'-->
+   480	                (True, '2014.7.22')
+   481	        'inscrutable'-->
+   482	            'wrong'-->
+   483	                (1, ['2014.7.20'])
+   484	            'mostRecent'-->
+   485	                (False, '2014.7.20')
+   486	        'serendipity'-->
+   487	            'correct'-->
+   488	                (1, ['2014.7.21'])
+   489	            'mostRecent'-->
+   490	                (True, '2014.7.21')
+   491	        'indifferent'-->
+   492	            'correct'-->
+   493	                (1, ['2014.7.20'])
+   494	            'mostRecent'-->
+   495	                (True, '2014.7.20')
+   496	        'absolute'-->
+   497	            'correct'-->
+   498	                (1, ['2014.7.22'])
+   499	            'mostRecent'-->
+   500	                (True, '2014.7.22')
+   501	        'provincial'-->
+   502	            'correct'-->
+   503	                (1, ['2014.7.21'])
+   504	            'mostRecent'-->
+   505	                (True, '2014.7.21')
+   506	        'anachronism'-->
+   507	            'correct'-->
+   508	                (1, ['2014.7.20'])
+   509	            'mostRecent'-->
+   510	                (True, '2014.7.20')
+   511	        'benign'-->
+   512	            'correct'-->
+   513	                (1, ['2014.7.22'])
+   514	            'mostRecent'-->
+   515	                (True, '2014.7.22')
+   516	        'discredit'-->
+   517	            'correct'-->
+   518	                (1, ['2014.7.23'])
+   519	            'mostRecent'-->
+   520	                (True, '2014.7.23')
+   521	        'painstaking'-->
+   522	            'correct'-->
+   523	                (1, ['2014.7.20'])
+   524	            'mostRecent'-->
+   525	                (True, '2014.7.20')
+   526	        'cajole'-->
+   527	            'correct'-->
+   528	                (1, ['2014.7.22'])
+   529	            'mostRecent'-->
+   530	                (True, '2014.7.22')
+   531	        'eclectic'-->
+   532	            'correct'-->
+   533	                (2, ['2014.7.21', '2014.7.23'])
+   534	            'mostRecent'-->
+   535	                (True, '2014.7.23')
+   536	        'irreverent'-->
+   537	            'correct'-->
+   538	                (2, ['2014.7.18', '2014.7.20'])
+   539	            'mostRecent'-->
+   540	                (True, '2014.7.20')
+   541	        'restitution'-->
+   542	            'wrong'-->
+   543	                (1, ['2014.7.18'])
+   544	            'mostRecent'-->
+   545	                (False, '2014.7.18')
+   546	        'fanaticism'-->
+   547	            'correct'-->
+   548	                (1, ['2014.7.23'])
+   549	            'mostRecent'-->
+   550	                (True, '2014.7.23')
+   551	        'comprehensive'-->
+   552	            'correct'-->
+   553	                (1, ['2014.7.22'])
+   554	            'mostRecent'-->
+   555	                (True, '2014.7.22')
+   556	        'opulent'-->
+   557	            'correct'-->
+   558	                (1, ['2014.7.20'])
+   559	            'mostRecent'-->
+   560	                (True, '2014.7.20')
+   561	        'amorphous'-->
+   562	            'correct'-->
+   563	                (1, ['2014.7.22'])
+   564	            'mostRecent'-->
+   565	                (True, '2014.7.22')
+   566	        'nullify'-->
+   567	            'correct'-->
+   568	                (1, ['2014.7.20'])
+   569	            'mostRecent'-->
+   570	                (True, '2014.7.20')
+   571	        'redolent'-->
+   572	            'wrong'-->
+   573	                (1, ['2014.7.18'])
+   574	            'mostRecent'-->
+   575	                (False, '2014.7.18')
+   576	        'impeccable'-->
+   577	            'correct'-->
+   578	                (1, ['2014.7.18'])
+   579	            'mostRecent'-->
+   580	                (True, '2014.7.18')
+   581	        'relinquish'-->
+   582	            'correct'-->
+   583	                (1, ['2014.7.18'])
+   584	            'mostRecent'-->
+   585	                (True, '2014.7.18')
+   586	        'foolhardy'-->
+   587	            'correct'-->
+   588	                (1, ['2014.7.23'])
+   589	            'mostRecent'-->
+   590	                (True, '2014.7.23')
+   591	        'disheartening'-->
+   592	            'correct'-->
+   593	                (1, ['2014.7.18'])
+   594	            'mostRecent'-->
+   595	                (True, '2014.7.18')
+   596	        'elusive'-->
+   597	            'correct'-->
+   598	                (1, ['2014.7.20'])
+   599	            'mostRecent'-->
+   600	                (True, '2014.7.20')
+   601	        'episodic'-->
+   602	            'correct'-->
+   603	                (1, ['2014.7.23'])
+   604	            'mostRecent'-->
+   605	                (True, '2014.7.23')
+   606	        'facile'-->
+   607	            'correct'-->
+   608	                (1, ['2014.7.23'])
+   609	            'mostRecent'-->
+   610	                (True, '2014.7.23')
+   611	        'explicit'-->
+   612	            'correct'-->
+   613	                (1, ['2014.7.23'])
+   614	            'mostRecent'-->
+   615	                (True, '2014.7.23')
+   616	        'relief'-->
+   617	            'correct'-->
+   618	                (1, ['2014.7.21'])
+   619	            'mostRecent'-->
+   620	                (True, '2014.7.21')
+   621	        'paradigm'-->
+   622	            'correct'-->
+   623	                (1, ['2014.7.20'])
+   624	            'mostRecent'-->
+   625	                (True, '2014.7.20')
+   626	        'depict'-->
+   627	            'correct'-->
+   628	                (1, ['2014.7.22'])
+   629	            'mostRecent'-->
+   630	                (True, '2014.7.22')
+   631	        'parody'-->
+   632	            'wrong'-->
+   633	                (1, ['2014.7.18'])
+   634	            'mostRecent'-->
+   635	                (False, '2014.7.18')
+   636	        'truculent'-->
+   637	            'wrong'-->
+   638	                (1, ['2014.7.18'])
+   639	            'mostRecent'-->
+   640	                (False, '2014.7.18')
+   641	        'altruistic'-->
+   642	            'correct'-->
+   643	                (1, ['2014.7.20'])
+   644	            'mostRecent'-->
+   645	                (True, '2014.7.20')
+   646	        'espouse'-->
+   647	            'correct'-->
+   648	                (1, ['2014.7.23'])
+   649	            'mostRecent'-->
+   650	                (True, '2014.7.23')
+   651	        'abstemious'-->
+   652	            'correct'-->
+   653	                (2, ['2014.7.20', '2014.7.22'])
+   654	            'mostRecent'-->
+   655	                (True, '2014.7.22')
+   656	        'acknowledge'-->
+   657	            'correct'-->
+   658	                (1, ['2014.7.22'])
+   659	            'mostRecent'-->
+   660	                (True, '2014.7.22')
+   661	        'apex'-->
+   662	            'correct'-->
+   663	                (1, ['2014.7.21'])
+   664	            'mostRecent'-->
+   665	                (True, '2014.7.21')
+   666	        'decorum'-->
+   667	            'correct'-->
+   668	                (1, ['2014.7.22'])
+   669	            'mostRecent'-->
+   670	                (True, '2014.7.22')
+   671	        'exalt'-->
+   672	            'correct'-->
+   673	                (1, ['2014.7.23'])
+   674	            'mostRecent'-->
+   675	                (True, '2014.7.23')
+   676	        'depravity'-->
+   677	            'correct'-->
+   678	                (1, ['2014.7.22'])
+   679	            'mostRecent'-->
+   680	                (True, '2014.7.22')
+   681	        'derivative'-->
+   682	            'correct'-->
+   683	                (1, ['2014.7.23'])
+   684	            'mostRecent'-->
+   685	                (True, '2014.7.23')
+   686	        'impoverished'-->
+   687	            'wrong'-->
+   688	                (1, ['2014.7.18'])
+   689	            'mostRecent'-->
+   690	                (False, '2014.7.18')
+   691	        'excoriating'-->
+   692	            'correct'-->
+   693	                (1, ['2014.7.21'])
+   694	            'mostRecent'-->
+   695	                (True, '2014.7.21')
+   696	        'adjacent'-->
+   697	            'correct'-->
+   698	                (1, ['2014.7.22'])
+   699	            'mostRecent'-->
+   700	                (True, '2014.7.22')
+   701	        'entomology'-->
+   702	            'correct'-->
+   703	                (1, ['2014.7.20'])
+   704	            'mostRecent'-->
+   705	                (True, '2014.7.20')
+   706	        'belittle'-->
+   707	            'correct'-->
+   708	                (1, ['2014.7.22'])
+   709	            'mostRecent'-->
+   710	                (True, '2014.7.22')
+   711	        'erudite'-->
+   712	            'correct'-->
+   713	                (1, ['2014.7.23'])
+   714	            'mostRecent'-->
+   715	                (True, '2014.7.23')
+   716	        'pertinent'-->
+   717	            'correct'-->
+   718	                (1, ['2014.7.21'])
+   719	            'mostRecent'-->
+   720	                (True, '2014.7.21')
+   721	        'disinclination'-->
+   722	            'correct'-->
+   723	                (1, ['2014.7.23'])
+   724	            'mostRecent'-->
+   725	                (True, '2014.7.23')
+   726	        'expunge'-->
+   727	            'correct'-->
+   728	                (1, ['2014.7.21'])
+   729	            'mostRecent'-->
+   730	                (True, '2014.7.21')
+   731	        'indisputable'-->
+   732	            'correct'-->
+   733	                (1, ['2014.7.21'])
+   734	            'mostRecent'-->
+   735	                (True, '2014.7.21')
+   736	        'expository'-->
+   737	            'correct'-->
+   738	                (1, ['2014.7.23'])
+   739	            'mostRecent'-->
+   740	                (True, '2014.7.23')
+   741	        'debacle'-->
+   742	            'correct'-->
+   743	                (1, ['2014.7.21'])
+   744	            'mostRecent'-->
+   745	                (True, '2014.7.21')
+   746	        'capricious'-->
+   747	            'correct'-->
+   748	                (1, ['2014.7.22'])
+   749	            'mostRecent'-->
+   750	                (True, '2014.7.22')
+   751	        'virulent'-->
+   752	            'correct'-->
+   753	                (1, ['2014.7.18'])
+   754	            'mostRecent'-->
+   755	                (True, '2014.7.18')
+   756	        'obdurate'-->
+   757	            'correct'-->
+   758	                (1, ['2014.7.18'])
+   759	            'mostRecent'-->
+   760	                (True, '2014.7.18')
+   761	        'improvise'-->
+   762	            'correct'-->
+   763	                (1, ['2014.7.18'])
+   764	            'mostRecent'-->
+   765	                (True, '2014.7.18')
+   766	        'thwart'-->
+   767	            'wrong'-->
+   768	                (1, ['2014.7.20'])
+   769	            'mostRecent'-->
+   770	                (False, '2014.7.20')
+   771	        'debilitate'-->
+   772	            'wrong'-->
+   773	                (1, ['2014.7.22'])
+   774	            'mostRecent'-->
+   775	                (False, '2014.7.22')
+   776	        'duration'-->
+   777	            'correct'-->
+   778	                (1, ['2014.7.23'])
+   779	            'mostRecent'-->
+   780	                (True, '2014.7.23')
+   781	        'indigent'-->
+   782	            'correct'-->
+   783	                (1, ['2014.7.20'])
+   784	            'mostRecent'-->
+   785	                (True, '2014.7.20')
+   786	        'prolific'-->
+   787	            'correct'-->
+   788	                (1, ['2014.7.21'])
+   789	            'mostRecent'-->
+   790	                (True, '2014.7.21')
+   791	        'dilapidated'-->
+   792	            'correct'-->
+   793	                (1, ['2014.7.21'])
+   794	            'mostRecent'-->
+   795	                (True, '2014.7.21')
+   796	        'deleterious'-->
+   797	            'correct'-->
+   798	                (1, ['2014.7.18'])
+   799	            'mostRecent'-->
+   800	                (True, '2014.7.18')
+   801	        'adverse'-->
+   802	            'correct'-->
+   803	                (1, ['2014.7.22'])
+   804	            'mostRecent'-->
+   805	                (True, '2014.7.22')
+   806	        'remorse'-->
+   807	            'correct'-->
+   808	                (1, ['2014.7.21'])
+   809	            'mostRecent'-->
+   810	                (True, '2014.7.21')
+   811	        'juggernaut'-->
+   812	            'correct'-->
+   813	                (1, ['2014.7.21'])
+   814	            'mostRecent'-->
+   815	                (True, '2014.7.21')
+   816	        'epic'-->
+   817	            'correct'-->
+   818	                (1, ['2014.7.23'])
+   819	            'mostRecent'-->
+   820	                (True, '2014.7.23')
+   821	        'underwrite'-->
+   822	            'correct'-->
+   823	                (1, ['2014.7.21'])
+   824	            'mostRecent'-->
+   825	                (True, '2014.7.21')
+   826	        'biased'-->
+   827	            'correct'-->
+   828	                (1, ['2014.7.22'])
+   829	            'mostRecent'-->
+   830	                (True, '2014.7.22')
+   831	        'elucidate'-->
+   832	            'correct'-->
+   833	                (1, ['2014.7.21'])
+   834	            'mostRecent'-->
+   835	                (True, '2014.7.21')
+   836	        'arbitrary'-->
+   837	            'correct'-->
+   838	                (1, ['2014.7.22'])
+   839	            'mostRecent'-->
+   840	                (True, '2014.7.22')
+   841	        'poignant'-->
+   842	            'correct'-->
+   843	                (1, ['2014.7.20'])
+   844	            'mostRecent'-->
+   845	                (True, '2014.7.20')
+   846	        'dexterous'-->
+   847	            'correct'-->
+   848	                (1, ['2014.7.20'])
+   849	            'mostRecent'-->
+   850	                (True, '2014.7.20')
+   851	        'abate'-->
+   852	            'correct'-->
+   853	                (1, ['2014.7.22'])
+   854	            'mostRecent'-->
+   855	                (True, '2014.7.22')
+   856	        'furore'-->
+   857	            'wrong'-->
+   858	                (1, ['2014.7.18'])
+   859	            'mostRecent'-->
+   860	                (False, '2014.7.18')
+   861	        'solicitous'-->
+   862	            'correct'-->
+   863	                (1, ['2014.7.21'])
+   864	            'mostRecent'-->
+   865	                (True, '2014.7.21')
+   866	        'demarcation'-->
+   867	            'correct'-->
+   868	                (1, ['2014.7.21'])
+   869	            'mostRecent'-->
+   870	                (True, '2014.7.21')
+   871	        'contagion'-->
+   872	            'correct'-->
+   873	                (1, ['2014.7.22'])
+   874	            'mostRecent'-->
+   875	                (True, '2014.7.22')
+   876	        'innuendo'-->
+   877	            'wrong'-->
+   878	                (1, ['2014.7.20'])
+   879	            'mostRecent'-->
+   880	                (False, '2014.7.20')
+   881	        'pandemic'-->
+   882	            'correct'-->
+   883	                (1, ['2014.7.20'])
+   884	            'mostRecent'-->
+   885	                (True, '2014.7.20')
+   886	        'conciliatory'-->
+   887	            'correct'-->
+   888	                (1, ['2014.7.22'])
+   889	            'mostRecent'-->
+   890	                (True, '2014.7.22')
+   891	        'anecdote'-->
+   892	            'correct'-->
+   893	                (1, ['2014.7.20'])
+   894	            'mostRecent'-->
+   895	                (True, '2014.7.20')
+   896	        'plethora'-->
+   897	            'wrong'-->
+   898	                (1, ['2014.7.18'])
+   899	            'mostRecent'-->
+   900	                (False, '2014.7.18')
+   901	        'civil'-->
+   902	            'correct'-->
+   903	                (1, ['2014.7.22'])
+   904	            'mostRecent'-->
+   905	                (True, '2014.7.22')
+   906	        'renovate'-->
+   907	            'correct'-->
+   908	                (1, ['2014.7.20'])
+   909	            'mostRecent'-->
+   910	                (True, '2014.7.20')
+   911	        'doctrine'-->
+   912	            'correct'-->
+   913	                (1, ['2014.7.23'])
+   914	            'mostRecent'-->
+   915	                (True, '2014.7.23')
+   916	        'animosity'-->
+   917	            'correct'-->
+   918	                (1, ['2014.7.22'])
+   919	            'mostRecent'-->
+   920	                (True, '2014.7.22')
+   921	        'martinet'-->
+   922	            'correct'-->
+   923	                (1, ['2014.7.21'])
+   924	            'mostRecent'-->
+   925	                (True, '2014.7.21')
+   926	        'disinterested'-->
+   927	            'correct'-->
+   928	                (1, ['2014.7.23'])
+   929	            'mostRecent'-->
+   930	                (True, '2014.7.23')
+   931	        'hallowed'-->
+   932	            'correct'-->
+   933	                (1, ['2014.7.23'])
+   934	            'mostRecent'-->
+   935	                (True, '2014.7.23')
+   936	        'prescient'-->
+   937	            'correct'-->
+   938	                (1, ['2014.7.21'])
+   939	            'mostRecent'-->
+   940	                (True, '2014.7.21')
+   941	        'futile'-->
+   942	            'correct'-->
+   943	                (1, ['2014.7.20'])
+   944	            'mostRecent'-->
+   945	                (True, '2014.7.20')
+   946	        'flippant'-->
+   947	            'correct'-->
+   948	                (1, ['2014.7.18'])
+   949	            'mostRecent'-->
+   950	                (True, '2014.7.18')
+   951	        'fortuitous'-->
+   952	            'correct'-->
+   953	                (1, ['2014.7.23'])
+   954	            'mostRecent'-->
+   955	                (True, '2014.7.23')
+   956	        'lurid'-->
+   957	            'wrong'-->
+   958	                (1, ['2014.7.18'])
+   959	            'mostRecent'-->
+   960	                (False, '2014.7.18')
+   961	        'reprobate'-->
+   962	            'correct'-->
+   963	                (1, ['2014.7.21'])
+   964	            'mostRecent'-->
+   965	                (True, '2014.7.21')
+   966	        'cosmopolitan'-->
+   967	            'correct'-->
+   968	                (1, ['2014.7.21'])
+   969	            'mostRecent'-->
+   970	                (True, '2014.7.21')
+   971	        'fastidious'-->
+   972	            'correct'-->
+   973	                (1, ['2014.7.23'])
+   974	            'mostRecent'-->
+   975	                (True, '2014.7.23')
+   976	        'parsimonious'-->
+   977	            'wrong'-->
+   978	                (1, ['2014.7.18'])
+   979	            'mostRecent'-->
+   980	                (False, '2014.7.18')
+   981	        'rebuff'-->
+   982	            'correct'-->
+   983	                (1, ['2014.7.18'])
+   984	            'mostRecent'-->
+   985	                (True, '2014.7.18')
+   986	        'malodorous'-->
+   987	            'correct'-->
+   988	                (3, ['2014.7.18', '2014.7.20', '2014.7.20'])
+   989	            'mostRecent'-->
+   990	                (True, '2014.7.20')
+   991	        'foresight'-->
+   992	            'correct'-->
+   993	                (1, ['2014.7.23'])
+   994	            'mostRecent'-->
+   995	                (True, '2014.7.23')
+   996	        'circumspect'-->
+   997	            'correct'-->
+   998	                (1, ['2014.7.20'])
+   999	            'mostRecent'-->
+  1000	                (True, '2014.7.20')
+  1001	        'disband'-->
+  1002	            'correct'-->
+  1003	                (1, ['2014.7.23'])
+  1004	            'mostRecent'-->
+  1005	                (True, '2014.7.23')
+  1006	        'aesthetic'-->
+  1007	            'correct'-->
+  1008	                (1, ['2014.7.22'])
+  1009	            'mostRecent'-->
+  1010	                (True, '2014.7.22')
+  1011	        'charlatan'-->
+  1012	            'correct'-->
+  1013	                (1, ['2014.7.22'])
+  1014	            'mostRecent'-->
+  1015	                (True, '2014.7.22')
+  1016	        'temper'-->
+  1017	            'correct'-->
+  1018	                (1, ['2014.7.21'])
+  1019	            'mostRecent'-->
+  1020	                (True, '2014.7.21')
+  1021	        'diverse'-->
+  1022	            'correct'-->
+  1023	                (1, ['2014.7.23'])
+  1024	            'mostRecent'-->
+  1025	                (True, '2014.7.23')
+  1026	        'sullen'-->
+  1027	            'correct'-->
+  1028	                (1, ['2014.7.21'])
+  1029	            'mostRecent'-->
+  1030	                (True, '2014.7.21')
+  1031	        'flummox'-->
+  1032	            'correct'-->
+  1033	                (1, ['2014.7.21'])
+  1034	            'mostRecent'-->
+  1035	                (True, '2014.7.21')
+  1036	        'analogy'-->
+  1037	            'correct'-->
+  1038	                (1, ['2014.7.20'])
+  1039	            'mostRecent'-->
+  1040	                (True, '2014.7.20')
+  1041	        'channel'-->
+  1042	            'correct'-->
+  1043	                (1, ['2014.7.21'])
+  1044	            'mostRecent'-->
+  1045	                (True, '2014.7.21')
+  1046	        'munificent'-->
+  1047	            'correct'-->
+  1048	                (1, ['2014.7.20'])
+  1049	            'mostRecent'-->
+  1050	                (True, '2014.7.20')
+  1051	        'gregarious'-->
+  1052	            'correct'-->
+  1053	                (1, ['2014.7.23'])
+  1054	            'mostRecent'-->
+  1055	                (True, '2014.7.23')
+  1056	        'mitigate'-->
+  1057	            'correct'-->
+  1058	                (1, ['2014.7.20'])
+  1059	            'mostRecent'-->
+  1060	                (True, '2014.7.20')
+  1061	        'covet'-->
+  1062	            'correct'-->
+  1063	                (1, ['2014.7.20'])
+  1064	            'mostRecent'-->
+  1065	                (True, '2014.7.20')
+  1066	        'dispassionate'-->
+  1067	            'correct'-->
+  1068	                (1, ['2014.7.23'])
+  1069	            'mostRecent'-->
+  1070	                (True, '2014.7.23')
+  1071	    'list'-->
+  1072	        'Bl8'-->
+  1073	            [('2014.7.23', 1.0)]
+  1074	        'Dl10'-->
+  1075	            [('2014.7.21', 1.0)]
+  1076	        'Bl5'-->
+  1077	            [('2014.7.23', 1.0)]
+  1078	        'Bl4'-->
+  1079	            [('2014.7.22', 0.9)]
+  1080	        'Bl7'-->
+  1081	            [('2014.7.23', 1.0)]
+  1082	        'Bl6'-->
+  1083	            [('2014.7.23', 1.0)]
+  1084	        'Bl1'-->
+  1085	            [('2014.7.22', 1.0)]
+  1086	        'Bl3'-->
+  1087	            [('2014.7.22', 1.0)]
+  1088	        'Bl2'-->
+  1089	            [('2014.7.22', 1.0)]
+  1090	        'Dl2'-->
+  1091	            [('2014.7.20', 0.7)]
+  1092	        'Dl1'-->
+  1093	            [('2014.7.20', 1.0)]
+  1094	        'Dl7'-->
+  1095	            [('2014.7.21', 1.0)]
+  1096	        'Dl6'-->
+  1097	            [('2014.7.18', 0.5), ('2014.7.20', 1.0)]
+  1098	        'Dl5'-->
+  1099	            [('2014.7.18', 1.0), ('2014.7.20', 1.0)]
+  1100	        'Dl4'-->
+  1101	            [('2014.7.21', 1.0)]
+  1102	        'Dl9'-->
+  1103	            [('2014.7.18', 0.5), ('2014.7.21', 1.0)]
+  1104	        'Dl8'-->
+  1105	            [('2014.7.18', 0.5)]
+  1106	'group'-->
+  1107	    '550'
+  1108	'Grade'-->
+  1109	    '11'
+  1110	'SAT'-->
+  1111	    'FirstTest'-->
+  1112	        'Essay'-->
+  1113	            '10'
+  1114	        'MA'-->
+  1115	            '790'
+  1116	        'Score'-->
+  1117	            '2010'
+  1118	        'WR'-->
+  1119	            '630'
+  1120	        'Date'-->
+  1121	            '2014.06.07'
+  1122	        'CR'-->
+  1123	            '590'
+  1124	        'TakenSAT'-->
+  1125	            'True'
+  1126	'selfcontrol'-->
+  1127	    '1'
+  1128	'TOEFL'-->
+  1129	    'Writing'-->
+  1130	        '25'
+  1131	    'Score'-->
+  1132	        '97'
+  1133	    'Listening'-->
+  1134	        '25'
+  1135	    'Taken'-->
+  1136	        'True'
+  1137	    'Reading'-->
+  1138	        '27'
+  1139	    'Oral'-->
+  1140	        '20'

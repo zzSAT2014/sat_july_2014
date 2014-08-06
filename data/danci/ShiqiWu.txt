@@ -1,0 +1,44 @@
+date 2014.7.27
+name	 	listnum	 		vocab,test	 		vocab,false
+ShiqiWu             Dl7	 	D9,C2,B8,D2,B7,A1,B6,D6,C1,B4		None
+ShiqiWu             Dl8	 	A7,B4,A10,B7,C12,D3,C9,C11,C1,C3	None
+ShiqiWu             Dl9	 	B4,C2,C6,D2,A1,D3,D9,A5,C7,A2            C7,A2
+ShiqiWu             Dl10	C13,B8,D6,C5,A3,B14,A6,A1,D9,C6		None
+
+
+ShiqiWu             Bl7	 	A3,C9,B3,B7,B8,D5,A7,D9,B2,D10		None
+ShiqiWu             Bl8	 	B10,B3,B5,B7,D9,A8,A3,A4,D1,A2		None
+ShiqiWu             Bl9	 	B8,A10,B7,A9,B5,A2,C1,D4,D5,D2		None
+ShiqiWu             Bl10	A1,C1,D4,C4,C8,B3,D8,B6,A2,A4		None
+
+
+ShiqiWu             Bl4	 	B10,A3,D1,C9,A1,C7,B8,A10,C10,D8      A1
+ShiqiWu             Bl6	 	D8,A9,B10,A3,A4,C10,B3,B1,D6,D2       B10
+ShiqiWu             Bl8	 	B10,C6,B7,D3,B1,A6,C5,A3,A1,C3		None
+ShiqiWu             Bl10	 C10,C3,A6,B2,A9,A7,A2,C9,A8,D5		None
+
+
+
+ShiqiWu             Bl11	 A3,D5,D4,D3,D2,C10,C2,B2,C8,A9		None
+ShiqiWu             Bl12	 D9,A5,A8,A10,B4,A6,D3,B9,D1,A9		None
+ShiqiWu             Dl6	 	C4,B2,B3,D4,A9,C12,C9,A10,D8,A11       B2
+ShiqiWu             Dl7	 	A3,C2,C7,B7,D3,B1,B4,A8,C3,C8          C3
+
+
+ShiqiWu             Bl15	 C8,B2,A4,C4,D9,D4,C10,C2,B10,D1	None
+ShiqiWu             Bl16	 D7,A1,A4,A8,B3,A10,C5,C7,B8,D1		None
+ShiqiWu             Bl17	 B8,C6,A5,B3,C1,B6,D4,C4,C2,D8		None
+ShiqiWu             Bl18	 A9,A4,C9,D6,A6,B5,D5,A7,C7,D9		None
+
+
+
+ShiqiWu             Bl1	 	A5,A7,D9,C7,B7,D2,B3,A6,B5,C2		None
+ShiqiWu             Bl2	 	A9,D9,D3,D8,B3,C3,D6,B7,C7,B1		None
+ShiqiWu             Bl3	 	C2,A5,A2,C1,B7,D2,A1,A10,A6,B6		None
+ShiqiWu             Bl4	 	B10,D5,B9,C8,D1,A6,C9,A1,C3,D9		None
+
+
+ShiqiWu             Bl11	 D9,D10,B1,B5,C7,C10,C8,B3,A10,C9	None
+ShiqiWu             Bl12	 D10,D4,D1,A1,B4,A6,D3,A4,C7,D6		None
+ShiqiWu             Bl13	 C6,D10,D4,C9,C1,D3,D2,B5,B7,C7		None
+ShiqiWu             Bl14	 C5,D2,A10,D9,B2,C4,A2,B1,A4,A6		None

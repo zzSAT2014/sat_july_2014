@@ -31,7 +31,8 @@ sys.path.append(subdir)
 from data import data
 #original data 
 data 
-mydata = data(subdir +'/'+'test_output')
+mydata = data('/Users/Zhe/Desktop/sat_july_2014/data/newmaster',mode = 'db')
+
 from sub_dic import sub_dict
 sub_dict
 
@@ -47,6 +48,10 @@ sub_dict
 from mock_test_parser import CRmock_parser
 CRmock_parser
 
+from cr_practice import cr_practice_parser
+
 from print_dict import print_dict
 
 from sentence_parser import sentence_parser
+ 
+from data import access_subdirectory

@@ -1,4 +1,11 @@
 Name	Date	Serial No	Extraction	Total num of choices	Wrong Choices	Confused Choices	Phrase	Words
-Zhe	2014.07.31	201401P01	1,2,3	24	1:A,2:B,4:D	6:A,7:C	have_fun,set_up	hi,hello
-Zhe	2014.07.31	201401P02	1,2,4	10	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.7.31	201401P01	1,2,3	24	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.7.31	201401P02	1,2,4	24	1:A,2:B,4:D	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.1	201401P03	1,2,5	24	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.1	201401P04	1,2	24	1:A,2:B,4:D	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.2	201401P05	1,3	24	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.3	201401P06	1,4	24	1:A,2:B,4:D	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.3	201401P07	1,5	24	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.3	201401P08	1,2,3,4	24	1:A,2:B	6:A,7:C	have_fun,set_up	hi,hello
+Zhe	2014.8.3	201401P09	1,2,3,5	24	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello
 Hi	2014.08.01	201401P03	None	24	1:A,2:B,4:D,5:E	6:A,7:C	have_fun,set_up	hi,hello

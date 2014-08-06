@@ -13,7 +13,7 @@ def pie_chart(fracs,labels,tit,outputdir,emphasis = None,show = False):
 		do: draws a pie chart'''
 
 
-	a = figure(figsize =(6,6))
+	a = figure(figsize =(10,10))
 	ax = axes([0.1, 0.1, 0.8, 0.8]) #initialize fig
 
 	if not len(fracs) == len(labels):

@@ -1,0 +1,37 @@
+date 2014.7.27
+name				listnum				vocab,test												vocab,false
+RuolingMeng         Bl9				C6,D2,D6,C1,D4,B1,C7,C5,B9,D10			C7,C5
+RuolingMeng         Bl10				B7,C3,D4,B9,D3,C8,B2,D6,D8,A3		C3
+RuolingMeng         Bl11				A3,D9,D4,C5,D2,C7,C8,A9,A10,C9		D4,C7
+RuolingMeng         Bl12				C2,A7,A1,A5,A8,C10,D3,A4,B2,B9		C1
+
+
+
+RuolingMeng         Bl13				D4,C1,C4,A5,D5,B8,A4,B7,D6,D7		None
+RuolingMeng         Bl14				B9,B1,A3,D6,C2,C3,A7,A2,A1,D2		A7
+RuolingMeng         Bl15				B2,A3,C4,C2,A7,B6,B7,A9,B10,A1		B10
+RuolingMeng         Bl16				A9,C8,A1,B5,D2,D8,C4,B10,B7,D6		B10
+
+
+
+RuolingMeng         Bl17				C8,B8,B9,B5,A7,D1,D4,D10,D2,A6		None
+RuolingMeng         Bl18				B6,C1,D4,A9,D5,B7,A3,C7,D7,D8		A3,C7
+RuolingMeng         Bl19				B4,C5,A2,A10,C4,D4,B10,D1,D10,C7	C7
+RuolingMeng         Bl20				A7,A2,C5,C7,A6,B3,D8,B9,B1,C1		B9
+
+
+
+RuolingMeng         Bl1				A4,A3,B8,B6,C4,C7,D8,D4,C2,C5		None
+RuolingMeng         Bl3				B2,C3,B1,D9,D1,C4,D10,B10,A9,D6		None
+RuolingMeng         Bl5				C4,A7,D8,B7,B8,A5,B6,A1,C5,C2		None
+RuolingMeng         Bl7				A5,A3,C9,B5,C10,C1,B8,D7,B2,B4		None
+
+
+
+
+RuolingMeng         Bl12				A6,B1,C4,D9,B4,D1,A9,B7,C7,B9		None
+RuolingMeng         Bl14				A5,B5,B7,D10,C2,C10,D3,C4,A4,C5		None
+RuolingMeng         Bl16				A5,A3,D3,D9,A4,C3,A2,A6,B6,D1		None
+RuolingMeng         Bl18				B4,B2,C10,D4,C8,C3,D1,B9,C7,A2		None
+
+

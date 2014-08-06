@@ -13,12 +13,12 @@ import shelve
 sopen = lambda filename: shelve.open(filename,writeback = True)
 
 import re
-
+from copy import deepcopy
 
 from print_dict import print_dict
 
 class data(object):
-	def __init__(self,filename,mode = 'normal'):
+	def __init__(self,filename,mode = 'db'):
 		'''opens up the file in r+ mode, unless otherwise specified, i.e use a+ to create file'''
 		if mode is 'normal':
 			self.file = open(filename,mode = 'r+')
@@ -27,14 +27,14 @@ class data(object):
 				string = eval(line)
 		elif mode is 'db':
 			self.file = sopen(filename)
-			string = self.file
+			string = eval(repr(self.file))
 		self.name = filename
 		# string=self.file.read().strip()
 		
 		#print 'hi'
 		#print string
 		self.info =  string
-
+		self.file.close() #must close file to avoid corruption
 
 
 	def update(self, func, output = None):
@@ -47,14 +47,17 @@ class data(object):
 			if output == None: output = self.name
 			func(self.info)
 			#print_dict(self.info)
+			print output
 			self.dbfile = sopen(output)
-			
+			print 'hi'
 
 			#print self.info
 			#print self.info
 			write2db(self.info,self.dbfile)
+			print 'updating'
 		finally:
 			self.dbfile.close()
+			print 'finish update'
 
 	def get_student(self,name):
 		'''return all information about the student'''
@@ -74,7 +77,7 @@ class data(object):
 	def __str__(self):
 		
 		
-		print_dict(eval(repr(self.info)))
+		print_dict(self.info)
 		
 		return 'end'
 
@@ -121,4 +124,6 @@ def test_data():
 	a = data(input_file)
 	print a
 
+alldata = data('/Users/Zhe/Desktop/sat_july_2014/data/database1')
+#alldata.remove([],'CRpractice')
 #test_data()

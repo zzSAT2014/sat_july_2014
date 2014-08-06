@@ -10,7 +10,7 @@ def normal_plot(data, xlabels, tit, outputdir, xaxis = None, yaxis = None):
 	output:
 		a graph to the destined file'''
 
-	a = figure(figsize = (6,6) )
+	a = figure(figsize = (12,12) )
 	for value in data.values():
 		temp = len(value)
 	if xaxis: xlabel(xaxis)
@@ -31,7 +31,7 @@ def normal_plot(data, xlabels, tit, outputdir, xaxis = None, yaxis = None):
 
 	output = outputdir + '/'+tit
 	a.savefig(output)
-	show()
+	#show()
 	print 'graph (%s) successfully drawn & saved' %tit
 
 def test_normal_plot():

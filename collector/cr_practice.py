@@ -125,7 +125,7 @@ def per_calculator(totNum):
 		return (totNum - curNum)/float(totNum)
 	return inner
 
-class sentence_parser(txt_parser):
+class cr_practice_parser(txt_parser):
 	def __init__(self,filename):
 		'''custom designed vocab template processing toool'''
 		self.file = open(filename,'r')
@@ -194,18 +194,19 @@ class sentence_parser(txt_parser):
 					wrongs = (len(wrongs),wrongs)
 					confused = (len(confused),confused)
 
-					for identi,cate in zip(['wrongs','extraction','confused','date'],[wrongs,extraction,confused,date]):		
+					for identi,cate in zip(['wrongs','extraction','confused','date','correctness'],[wrongs,extraction,confused,date,correctness]):		
 						sub_dict(dic,[name,'CRpractice',serialNum,identi],value = cate)
 		return inner
 
 def test_sentence_parser():
-	print subdir
+	
+	subdir = '/Users/Zhe/Desktop/sat_july_2014/collector'
 	# data_file = '/Users/Zhe/Desktop/sat_july_2014/data_2014.07.15/test'
 	data_file = subdir + '/'+'empty'
 	input= 'mock_test'
-
-	original = data(data_file)
-	a = sentence_parser(subdir + '/'+input).parser()
+    
+	original = data(data_file,mode = 'normal')
+	a = cr_practice_parser(subdir + '/'+input).parser()
 
 	original.update(a,output = 'test_output')
 	print original
@@ -213,5 +214,5 @@ def test_sentence_parser():
 	#a(empty)
 	#print_dict(empty)
 
-test_sentence_parser()
+#test_sentence_parser()
 #test_vocab_parser()

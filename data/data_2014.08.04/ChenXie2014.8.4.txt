@@ -1,0 +1,24 @@
+date 2014.8.4
+name				listnum				vocab,test												vocab,false
+ChenXie             Bl11				B8,A2,B6,C3,D2,C7,C6,C8,A10,C9
+ChenXie             Bl12				C2,C8,B1,C9,D2,B5,D3,B2,A2,D6
+ChenXie             Bl13				C8,C2,C1,D2,B5,D1,A10,A4,A1,C5
+ChenXie             Bl14				B9,A8,C7,A3,D10,C3,C8,A1,C5,B3
+ChenXie             Dl1				D14,C15,D6,B11,D15,C2,A17,B19,D2,A1
+ChenXie             Dl2				A1,B15,A15,A13,D3,C14,A5,A12,D15,A14
+ChenXie             Dl3				C9,C10,A1,C12,A14,B10,A9,C1,A8,C8
+ChenXie             Dl4				A4,A5,C12,C1,D4,A13,D1,B7,A2,B8
+ChenXie             Dl5				D6,A2,D2,C1,C4,C8,B2,A3,C7,A8
+ChenXie             Bl13				B3,C10,C4,A5,D7,B8,A10,A4,A1,C5
+ChenXie             Bl14				B9,A10,C6,C9,D8,A3,D10,A7,A4,B3
+ChenXie             Bl15				B3,A4,C4,D6,C3,D3,C2,D7,B10,A1
+ChenXie             Bl16				D3,A1,C9,B5,D2,A8,D8,B4,A2,C10
+ChenXie             Dl6				A8,C5,D5,B8,D4,C2,B10,D12,B12,C13
+ChenXie             Dl7				A3,A2,D4,C7,D3,B6,A8,C3,B3,C8
+ChenXie             Dl8				B11,A11,A2,C5,B2,D5,C4,C3,B3,D7
+ChenXie             Dl9				A3,A1,C3,B11,A12,C10,D7,C8,A2,B13
+ChenXie             Dl10				A7,C14,A11,D4,A15,D1,A4,D14,A5,C12
+ChenXie             Bl15				A2,D3,A7,A8,C7,B6,B7,D7,A10,B5
+ChenXie             Bl16				D4,B6,C8,D6,D2,C2,D10,A2,B9,B7
+ChenXie             Bl17				B8,D7,A2,B3,C4,A9,D6,B6,D8,B10
+ChenXie             Bl18				A5,B2,B8,D4,C8,B10,A6,A8,C5,C1

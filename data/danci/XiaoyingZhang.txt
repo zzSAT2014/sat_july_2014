@@ -1,0 +1,12 @@
+date 2014.7.27
+name	 	   listnum	 		vocab,test	 		vocab,false
+XiaoyingZhang       Bl4	 	D4,B1,B3,A3,D1,C3,C1,A10,C10,B6      A3,A10
+XiaoyingZhang       Bl6	 	D8,B10,C6,C10,D1,B4,C5,B3,B9,C8      B10
+XiaoyingZhang       Bl8	 	C9,D9,C1,B4,D2,C7,A2,B2,A9,B9	     None        
+XiaoyingZhang       Bl10	 C3,C1,C5,C4,B9,D3,C8,A2,D2,C6       B9
+
+
+XiaoyingZhang       Bl11	 C1,C5,B7,C4,B6,C3,D2,D6,B4,B3       C4
+XiaoyingZhang       Bl13	 A2,B4,D4,C8,C10,D2,D5,B6,A8,A10     None                       
+XiaoyingZhang       Bl15	 A6,A4,A5,A2,C10,A8,B6,A10,B5,A1     A8
+XiaoyingZhang       Bl17	 C8,C9,B8,D6,C2,B4,D4,D10,A1,D2      B4,D4,A1

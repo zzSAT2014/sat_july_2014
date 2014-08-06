@@ -120,7 +120,8 @@ class dictionary(object):
 		return self.ldata[lis]
 
 
-# a = dictionary()
+#a = dictionary()
+
 #print a.get_w(('Dl6', 'B13'))
 #print len(a.get_l('Dl4'))
 #print a.get_w(('Dl5','D2'))

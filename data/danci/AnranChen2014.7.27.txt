@@ -1,0 +1,42 @@
+date 2014.7.27
+name				listnum				vocab,test												vocab,false
+AnranChen           Bl9				B3,A2,D7,A5,C10,A4,B6,A6,B2,D8		B2
+AnranChen           Bl10				C3,D4,A6,B9,D10,D7,B2,B4,B3,B1	D4,B2
+AnranChen           Bl11				B8,A7,D10,C5,A4,C3,D6,D7,A9,A10	None
+AnranChen           Bl12				C5,A1,B10,C6,A2,A4,D5,B2,B8,D10	None
+AnranChen           Bl3				C6,C1,C7,B4,B8,D10,A9,D8,B6,D6		C6
+
+
+AnranChen           Bl13				A2,C6,D10,D4,D3,B5,A6,D8,A8,D7	D10
+AnranChen           Bl14				B1,A10,D9,C10,C1,C4,A1,D3,B5,D4	None
+AnranChen           Bl15				C8,B2,B4,D5,A5,A2,A8,D2,B5,D1	A8
+AnranChen           Bl16				A3,D5,C8,D6,A4,D2,C7,B2,A1,C10	None
+AnranChen           Bl8				A6,C10,D3,D10,A5,A10,D9,B3,A2,D4	B3
+
+
+
+AnranChen           Bl17				A10,C8,C6,A2,D4,D10,C4,D2,C2,B5	None
+AnranChen           Bl18				C6,B1,A1,A4,C10,D10,A2,D2,D9,D8	A4
+AnranChen           Bl19				A4,C5,A6,C10,B5,C4,A1,A5,C2,D5	None
+AnranChen           Bl20				B2,D3,C6,C3,D8,B6,B9,B1,D7,C4	None
+
+
+
+AnranChen           Bl9				B3,D2,B7,A4,C9,D1,D4,B1,B8,D10	B8
+
+
+AnranChen           Bl11				A2,B6,D8,C7,C10,B5,B2,C8,D3,C9	None
+AnranChen           Bl14				B9,A8,D2,A5,B10,C3,D7,B1,A1,D5	D7,B1
+AnranChen           Bl15				A6,D10,C4,D9,A7,C7,D2,B1,C6,A1	None
+AnranChen           Bl16				A5,D3,D10,C5,C7,B9,A6,B2,B6,C6	C5,B2
+AnranChen           Bl20				B2,C3,B9,C1,B5,B4,B7,B10,D7,C9	B10
+
+
+AnranChen           Xl1				C9,A5,A8,C3,B6,B7,A10,B3,D10,C5		C3,D10
+AnranChen           Xl2				C1,D10,D4,D2,D7,B3,A1,A2,A9,A10		None
+AnranChen           Xl3				D4,B5,D7,C10,A4,B2,C5,C9,B3,D8		A4
+AnranChen           Xl4				A8,D5,D1,C2,D2,A1,A2,C7,A10,D9		D5,A10
+
+
+
+
