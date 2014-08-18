@@ -10,7 +10,7 @@ def radar(data, labels, tit, outputdir):
 
 	output: ---> a svg graph at destined folder'''
 	
-	radar_chart = pygal.Radar(style = BlueStyle)
+	radar_chart = pygal.Radar()#style = BlueStyle)
 	radar_chart.title = tit
 	radar_chart.x_labels = labels
 	defaultLen = len(labels)
@@ -22,16 +22,18 @@ def radar(data, labels, tit, outputdir):
 			return None
 
 		radar_chart.add(key,values)
-	radar_chart.add('max',len(values)*[100,])
+	radar_chart.add('max',
+		(len(values)-1)*([0,])+[100,])
+
 	output = outputdir + '/'+tit + '.svg'
 	radar_chart.render_to_file(output)
 
 	print 'figure (%s) successfully drawn & saved' %tit
 
 def test_radar():
-	labels =  ['sentence structure','sentence extraction','paragraph','vocab','extraction']
-	data = {'zhe':[60, 70, 80,50, 20], 'average':[50,60,30,80,90],'zhi':[80,]*5}
-	outpudir = '/Users/Zhe/Desktop/draw_trial'
-	tit = 'test_radar'
+	labels =  ['vocab','practice quantity','understanding','score','grammer','essay','sentence completion']
+	data = {'past':[40,20,60,45,45,40,50], 'average':[60,25,50,57,50,45,45],'current':[90,75,80,70,60,50,90]}
+	outpudir = '/Users/Zhe/Desktop/'
+	tit = 'SAT ability aggregate report'
 	radar(data,labels,tit,outpudir)
-#test_radar()
+test_radar()

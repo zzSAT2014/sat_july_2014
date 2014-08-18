@@ -1,0 +1,22 @@
+date 2014.8.7
+name				listnum				vocab,test												vocab,false
+ZhijianLi           Xl11				C6,C1,A8,B3,C3,A6,C8,D8,B7,A2
+ZhijianLi           Xl12				C6,B3,B4,B5,A10,B10,B9,A8,D5,B8
+ZhijianLi           Xl13				D3,B7,B6,D6,A5,D1,C3,A1,B4,B9
+ZhijianLi           Xl14				A3,C7,C6,C5,A10,A2,B5,B9,D8,B8
+ZhijianLi           Xl15				D1,C2,A7,D4,B4,A1,B9,C10,D2,A8
+ZhijianLi           Xl16				C3,C7,A7,A8,A4,B10,B9,D6,D2,C10
+ZhijianLi           Xl17				D8,C6,B3,B7,C7,B1,B10,A2,B5,D6
+ZhijianLi           Xl18				B8,B9,B4,D6,D4,D8,A1,D9,C1,B3
+ZhijianLi           Xl19				D10,C5,B4,D1,B5,B10,D4,C2,C8,D3
+ZhijianLi           Xl20				B1,A9,C2,C4,D1,B10,B6,A4,A6,C6
+ZhijianLi           Xl21				C3,B6,C4,C7,A8,B4,A5,C2,C9,C10
+ZhijianLi           Xl22				B3,A4,D6,C6,A7,C2,B8,D1,A2,B1
+ZhijianLi           Xl22				D5,B5,C5,A4,D6,B9,C10,D4,C7,D2
+ZhijianLi           Xl23				D9,A2,D2,D7,D8,C2,B1,B10,C7,C5
+ZhijianLi           Xl24				B10,D8,C6,D7,D3,A2,C8,C2,A7,A6
+ZhijianLi           Xl25				B4,D5,C5,A10,B8,B7,D3,A3,C9,C4
+ZhijianLi           Xl26				D8,A10,D10,C5,D9,C7,C9,C10,A6,D6
+ZhijianLi           Xl27				D4,A6,D7,A3,D2,A9,A1,B7,C7,C5
+ZhijianLi           Xl28				D2,B9,D4,B8,C9,A2,D7,C10,B1,D6
+ZhijianLi           Xl29				A6,B8,D10,D9,B7,C3,A4,B4,D3,B5

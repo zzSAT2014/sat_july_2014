@@ -19,6 +19,11 @@ from graph_tools import normal_plot
 from mydata import systoday
 from mydata import sub_dict
 
+
+
+#systoday = '2014.8.11'
+
+
 take_latest = lambda x: x[-1]
 def compute_accuracy(listup):
 	'''input <-- a list of tuples i.e. [(Bl1, 0.1), (Bl2,0.3)...]
@@ -37,9 +42,10 @@ def list_compare(lisnum):
 	output--> a tuple for comparision i.e. (1,20) 1<-- direct_hits ; 20 <-- current list'''
 
 	identi, num = lisnum[:2], eval(lisnum[2:])
+	#print num
 	if identi == 'Dl': key = 1
-	elif identi == 'Bl': key =2
-	elif identi == 'Xl' : key =3
+	elif identi == 'Bl': key = 2
+	elif identi == 'Xl' : key = 3
 	return (key,num)
 
 def convert_to_set(vocab_list):
@@ -73,7 +79,9 @@ def compute_finished(vinfo):
 			--> a dictonary containing {direct_hits: (finished, progrss, unfinished) * number of list for each group }
 			--> percentage of finished as of now'''
 	past = convert_to_set(vinfo.past)
+	#print 'past is %s'%past
 	progress = convert_to_set(vinfo.progress).difference(past)
+	#print 'progress is %s'%progress
 	start = min(progress, key=list_compare)
 	end = max(progress,key =list_compare)
 	recent_change = (start,end)
@@ -146,30 +154,37 @@ list_convert = lambda dickey, dicvalue: (dickey,dicvalue[1])
 
 
 class vocab_student(object):
-	def __init__(self,student_name, output ='/Users/Zhe/Desktop/sat_july_2014/report/vocab_processing', delta = 15):
+	def __init__(self,student_name, output ='/Users/Zhe/Desktop/sat_july_2014/report/vocab_processing', delta = 7):
 		self.outputdir = output
 		self.name = student_name
 		self.info = mydata.info[student_name]['vocab']
 		self.sinfo = mydata.info[student_name]
-		self.delta = 3
+		self.delta = delta
 		self.dates = dates_before(delta,systoday)
+		#print '\trecent dates are%s'%self.dates
 		self.progress = []
 		self.past = []
 		self.all = []
+
 		for date in self.dates:
-			if date in self.info['date']:
+
+			if date in self.info['date'].keys():
 
 				self.progress.extend(self.info['date'][date])
 		
 		for lis in self.info['list']:
 			value = self.info['list'][lis]
 			self.all.append( list_convert(lis, take_latest(value)) )
-
+			#print lis
+			#print take_date(take_latest(value))
 			if take_date(take_latest(value)) not in self.dates:
 				self.past.append( list_convert(lis, take_latest(value)))
 
 			elif len(value)>1:
-				self.past.append( list_convert(lis, value[-2]))
+				if not value[-1]==value[-2]: 
+					self.past.append( list_convert(lis, value[-2]))
+		#print 'past is %s' %self.past
+		#print '\n progress is %s'%self.progress
 		self.processing()
 		self.draw_graph()
 	def processing(self):

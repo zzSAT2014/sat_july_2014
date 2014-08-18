@@ -1,0 +1,13 @@
+date 2014.8.4
+name	 listnum	 vocab,test	 					vocab,false
+ZhijianLi           Xl9 	 B5,B3,C1,D10,B8,D2,A3,D3,D7,C8		None	
+ZhijianLi           Xl10	 A4,B7,B3,C9,A5,B10,C10,D1,C6,C4	None
+ZhijianLi           Xl11	 D2,A2,D1,B3,C10,A1,A5,D8,D10,B5	None
+
+ZhijianLi           Xl12	 B3,C9,A7,A4,D4,D5,D2,D9,A5,A10		None
+ZhijianLi           Xl13	 A3,B5,D9,C2,C3,C9,A10,B2,A1,B10	None
+ZhijianLi           Xl14	 D1,B2,B8,B1,D2,D4,A10,A4,A2,C6		None
+
+ZhijianLi           Xl17	 D10,B9,D8,D3,C5,B4,C8,A6,B2,C10	None
+ZhijianLi           Xl19	 A9,C6,C3,A5,B8,A2,A10,B4,B6,D2		None
+ZhijianLi           Xl20	 D3,A8,B7,A7,D1,D4,A6,B5,C1,B1		None

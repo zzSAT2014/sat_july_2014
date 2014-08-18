@@ -34,7 +34,8 @@ class student(object):
 
 		sub_dict(self.info, ['aggregate','past','score'] ,func=lambda x:score)
 		sub_dict(self.info, ['aggregate','current','score'] ,func=lambda x:score)
-		vocab_student(stu_name, output =outputdir)
+		try:vocab_student(stu_name, output =outputdir)
+		except : print 'vocab information is not updated' 
 		cr_practice_student(stu_name, output = outputdir)
 		print self.info['aggregate']
 
@@ -58,16 +59,13 @@ class student(object):
 		else: 
 			mydata.update(lambda x:x, output =output)
 
-lis = ['AnranChen','ChenXie','HaoranLiao','MingruiZhou','QianyiShi','RuolinMeng','RuxianLi','ShiqiWu','XiaoyingZhang','XinrongLi','YuemingGao','ZhijianLi']
-lis = ['HaoranLiao']
+#lis = ['AnranChen','ChenXie','HaoranLiao','QianyiShi','RuolinMeng','RuxianLi','ShiqiWu','XiaoyingZhang','XinrongLi','YuemingGao','ZhijianLi']
+lis = ['RuolinMeng']
 for studentname in lis:
-	subdie = '/Users/Zhe/Desktop/sat_july_2014/report/data/'
+	subdie = '/Users/Zhe/Desktop/sat_july_2014/report/data1/'
 	#os.mkdir(subdie + studentname)
+	print studentname
 	outputdir =subdie + studentname
-	
+		
+
 	a = student(studentname,outputdir = outputdir)
-	
-
-
-
-

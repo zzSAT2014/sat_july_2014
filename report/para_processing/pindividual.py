@@ -24,7 +24,7 @@ from mydata import sub_dict
 #print mydata
 class cr_practice_student(object):
 
-	def __init__(self,student_name, output =  '/Users/Zhe/Desktop/sat_july_2014/report/para_processing',delta = 10, recent = 2):
+	def __init__(self,student_name, output =  '/Users/Zhe/Desktop/sat_july_2014/report/para_processing',delta = 5, recent = 2):
 		self.name = student_name
 		self.info = mydata.info[student_name]['CRpractice']
 		self.sinfo = mydata.info[student_name]

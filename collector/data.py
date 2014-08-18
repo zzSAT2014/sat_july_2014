@@ -125,5 +125,5 @@ def test_data():
 	print a
 
 alldata = data('/Users/Zhe/Desktop/sat_july_2014/data/database1')
-#alldata.remove([],'CRpractice')
+#alldata.remove(['vocab','date'],'2014.8.7')
 #test_data()

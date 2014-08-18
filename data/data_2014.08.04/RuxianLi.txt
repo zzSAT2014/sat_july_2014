@@ -1,0 +1,19 @@
+date 2014.8.4
+name		 listnum			 vocab,test	 			vocab,false
+RuxianLi            Bl11	 D1,D9,A6,C5,A9,A1,C8,D3,A10,C9		A9,D1
+RuxianLi            Bl12	 D8,C5,D9,B10,A8,B4,B6,A6,A4,D1		A4
+RuxianLi            Bl13	 A2,D10,C10,D3,B5,D9,A4,B1,A8,D7	B5
+RuxianLi            Bl14	 A5,D5,B7,A10,C7,D9,B4,B8,A7,A6		A5,B4
+
+RuxianLi            Dl3	 	A10,B6,B3,A2,C13,C5,B7,C4,C6,A4		A10,B6
+RuxianLi            Dl4	 	C9,B12,A8,A5,D8,C2,A4,A2,A10,C6		A2,A4,A10,C9
+
+RuxianLi            BL15	 D6,A1,C1,C5,C6,B10,C7,A8,D5,D3		None
+RuxianLi            Bl17	 A8,D9,A3,A6,C2,C10,A1,A4,B5,D4		None
+RuxianLi            Bl18	 B3,D5,B4,B8,D9,D4,D2,B6,B10,C5		None
+
+RuxianLi            Bl16	 D4,A5,A3,D7,A1,B4,A8,B1,C2,C9		None
+RuxianLi            Dl6	 	C4,A8,C10,B8,B10,C6,C7,D3,A11,B6	None
+RuxianLi            Dl7	 	D10,C5,B2,B5,D3,D7,B6,B1,B3,A5		None
+RuxianLi            Dl8	 	B11,A9,A12,B8,C12,A4,A3,D2,D13,D7	None
+
